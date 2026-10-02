@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OPRN 월드맵 아이콘 — 17개 세계관 · 346장</title>
+<style>
+  :root { --bg:#14161c; --panel:#1c1f27; --line:#2c3040; --text:#e7e9ef; --dim:#9aa1b2; --ok:#4fbf7f; --bad:#e0675e; --acc:#7aa2ff; --warn:#e3b341; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.6 system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  header { padding:36px 24px 8px; max-width:1180px; margin:0 auto; }
+  h1 { margin:0 0 4px; font-size:26px; letter-spacing:-.01em; }
+  .sub { color:var(--dim); margin:0 0 18px; }
+  .flow { display:grid; grid-template-columns:repeat(5, 1fr); gap:8px; margin:20px 0 8px; }
+  .step { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px; position:relative; }
+  .step b { display:block; font-size:13px; margin-bottom:4px; }
+  .step span { color:var(--dim); font-size:12px; line-height:1.5; display:block; }
+  .step:not(:last-child)::after { content:"→"; position:absolute; right:-14px; top:50%; transform:translateY(-50%); color:var(--dim); z-index:1; }
+  .note { color:var(--dim); font-size:12.5px; max-width:900px; }
+  .note code { background:#262a36; padding:1px 5px; border-radius:4px; color:var(--text); }
+  nav { position:sticky; top:0; background:rgba(20,22,28,.94); backdrop-filter:blur(6px); border-bottom:1px solid var(--line); z-index:5; }
+  .bar { max-width:1180px; margin:0 auto; padding:10px 24px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .chip { border:1px solid var(--line); background:transparent; color:var(--dim); border-radius:14px; padding:3px 11px; font:inherit; font-size:12.5px; cursor:pointer; }
+  .chip.on { color:var(--text); border-color:var(--acc); background:#26304a; }
+  .chip small { opacity:.7; }
+  .sep { flex-basis:100%; height:0; }
+  main { max-width:1180px; margin:0 auto; padding:16px 24px 60px; }
+  h2 { font-size:18px; margin:26px 0 2px; }
+  .setmeta { color:var(--dim); font-size:12.5px; margin-bottom:10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(224px, 1fr)); gap:10px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px; cursor:pointer; display:flex; flex-direction:column; gap:8px; }
+  .card:hover { border-color:#3c4560; }
+  .pics { display:flex; align-items:flex-end; justify-content:center; height:200px; background:#181b22; border-radius:6px; padding:4px; }
+  .pics img { image-rendering:pixelated; image-rendering:crisp-edges; display:block; }
+  .ctx { border-radius:4px; outline:1px solid #0006; margin:6px 0 2px; max-width:100%; }
+  .nm { font-weight:600; font-size:13.5px; }
+  .meta { color:var(--dim); font-size:12px; }
+  .tags { display:flex; gap:5px; flex-wrap:wrap; }
+  .tag { font-size:11.5px; padding:0 7px; border-radius:9px; border:1px solid var(--line); color:var(--dim); }
+  .t-pass { color:var(--ok); border-color:#2f6b4b; }
+  .t-fail { color:var(--bad); border-color:#7a3b37; }
+  .d-accept { color:#0d1a12; background:var(--ok); border-color:var(--ok); }
+  .d-reject { color:#1f0d0c; background:var(--bad); border-color:var(--bad); }
+  .reads { color:#c9cede; font-size:12px; display:none; border-top:1px dashed var(--line); padding-top:6px; }
+  .card.open .reads { display:block; }
+  .space { background:#0b0d18; }
+  .ctxz { width:192px; max-width:100%; }
+  footer { max-width:1180px; margin:0 auto; padding:0 24px 40px; color:var(--dim); font-size:12px; }
+  @media (max-width:760px) { .flow { grid-template-columns:1fr 1fr; } .step::after { display:none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>OPRN 월드맵 아이콘</h1>
+  <p class="sub">17개 세계관 · 346장 — 16px 월드맵(EasyRPG World 칩셋 결) 장소 아이콘과, 그것을 만들고 거르는 하네스 · World-map place icons for 16px RPGs and the harness that makes and filters them</p>
+  <div class="flow">
+    <div class="step"><b>① 3D 장면 코드</b><span>세계관마다 <code>scenes.py</code>. 성·마을·탑을 상자·원통·지붕으로 짓는다. 생성 이미지 없음.</span></div>
+    <div class="step"><b>② 16px 레이캐스트</b><span>정면 3/4 카메라(윗면 + 남쪽 벽, 옆벽 0px), EasyRPG World 팔레트 + 세트당 새 색 ≤24.</span></div>
+    <div class="step"><b>③ 지도에 붙이기</b><span>공용 지형·여정 템플릿의 맞는 역할 자리(수도 6×6, 마을 2×2 …)에 붙여 1배·3배로 본다.</span></div>
+    <div class="step"><b>④ 검수자</b><span>LLM 검수자가 8배와 지도 1배를 보고 PASS/FAIL + 사유 코드. 참고용.</span></div>
+    <div class="step"><b>⑤ 사람이 결정</b><span>받기 / 버리기는 사람만. 버린 것은 원래 화소를 재료로 다시 그리기 판.</span></div>
+  </div>
+  <p class="note">사유 코드: <code>SIDE</code> 옆면이 보임 · <code>DIAG</code> 사선으로 기움 · <code>FRONT</code> 정면 벽이 없어 평면도처럼 보임 · <code>READ</code> 게임 크기(1배)에서 무엇인지 안 읽힘 · <code>STYLE</code> 칩셋 결과 다름.
+  카드를 누르면 검수자가 1배에서 무엇으로 읽었는지가 나온다. 「받음」은 프로젝트 쪽에서 사람이 받은 것, 표시가 없으면 아직 안 정한 것이다.</p>
+</header>
+<nav><div class="bar" id="bar"></div></nav>
+<main id="main"></main>
+<footer>그림: CC BY 4.0 — EasyRPG RTP <code>ChipSet/World.png</code>(JasonPerry, CC0)의 팔레트·결을 따른 파생물. 자세한 출처는 저장소의 <code>ATTRIBUTION.md</code>.</footer>
+<script>
+const D = /*DATA*/null;
+const F = { set: 'all', show: 'all' };
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const all = D.sets.flatMap((s) => s.icons);
+function keep(i) {
+  return F.show === 'all' || (F.show === 'pass' && i.verdict === 'PASS') || (F.show === 'fail' && i.verdict === 'FAIL') || (F.show === 'acc' && ['accept', 'pick'].includes(i.decision));
+}
+function bar() {
+  const sets = [['all', '전체', all.length], ...D.sets.map((s) => [s.id, s.name, s.icons.length])];
+  const shows = [['all', '모두'], ['pass', '검수 ✓'], ['fail', '검수 ✗'], ['acc', '받음']];
+  const cnt = (k) => all.filter((i) => (k === 'all') || (k === 'pass' && i.verdict === 'PASS') || (k === 'fail' && i.verdict === 'FAIL') || (k === 'acc' && ['accept', 'pick'].includes(i.decision))).length;
+  document.getElementById('bar').innerHTML =
+    sets.map(([k, l, n]) => `<button class="chip ${F.set === k ? 'on' : ''}" data-set="${k}">${esc(l)} <small>${n}</small></button>`).join('') +
+    '<span class="sep"></span>' + shows.map(([k, l]) => `<button class="chip ${F.show === k ? 'on' : ''}" data-show="${k}">${l} <small>${cnt(k)}</small></button>`).join('');
+  document.querySelectorAll('[data-set]').forEach((b) => b.onclick = () => { F.set = b.dataset.set; draw(); });
+  document.querySelectorAll('[data-show]').forEach((b) => b.onclick = () => { F.show = b.dataset.show; draw(); });
+}
+function card(i, s) {
+  const k = Math.max(1, Math.min(4, Math.floor(192 / (16 * Math.max(i.cells[0], i.cells[1])))));
+  const v = i.verdict === 'PASS' ? '<span class="tag t-pass">검수 ✓</span>' : i.verdict === 'FAIL' ? `<span class="tag t-fail">✗ ${esc(i.codes.join(','))}</span>` : '';
+  const d = ['accept', 'pick'].includes(i.decision) ? '<span class="tag d-accept">받음</span>' : i.decision === 'reject' ? '<span class="tag d-reject">버림</span>' : '';
+  return `<div class="card" onclick="this.classList.toggle('open')">
+    <div class="pics">
+      ${i.img ? `<img src="${i.img}" width="${i.cells[0] * 16 * k}" height="${i.cells[1] * 16 * k}" alt="${esc(i.name)}" loading="lazy" class="${s.kind === 'space' ? 'space' : ''}">` : ''}
+    </div>
+    <div><div class="nm">${esc(i.name)}</div><div class="meta">${esc(i.role_name)} · ${i.cells.join('×')}칸${i.place ? ' · ' + esc(i.place) : ''}</div></div>
+    <div class="tags">${v}${d}</div>
+    <div class="reads">${i.ctx ? `<div class="meta">지도 자리 — 게임 크기(1배)</div><img src="${i.ctx}" class="ctx ctxz" alt="지도 자리" loading="lazy">` : ''}${i.desc ? `<div>${esc(i.desc)}</div>` : ''}${i.reads_as ? `<div><b>1배에서:</b> ${esc(i.reads_as)}</div>` : ''}${i.verdict === 'FAIL' && i.reasons ? `<div><b>사유:</b> ${esc(i.reasons)}</div>` : ''}</div>
+  </div>`;
+}
+function draw() {
+  bar();
+  const html = D.sets.filter((s) => F.set === 'all' || s.id === F.set).map((s) => {
+    const icons = s.icons.filter(keep);
+    if (!icons.length) return '';
+    const meta = [`${s.icons.length}장`, s.extends ? `부분 세트 — 나머지 역할은 ${esc(s.extends)}` : '', s.kind === 'space' ? '우주 배경(땅 대신 별 바탕)' : '',
+      s.camera && s.camera.kx === 0 ? '정면 카메라 3D 장면' : (s.id === 'fantasy' ? '손 도트' : '경사 카메라 3D 장면(옆면 약간 허용)')].filter(Boolean).join(' · ');
+    return `<h2>${esc(s.name)} <span class="meta">${esc(s.id)}</span></h2><div class="setmeta">${meta}</div><div class="grid">${icons.map((i) => card(i, s)).join('')}</div>`;
+  }).join('');
+  document.getElementById('main').innerHTML = html || '<p class="meta">조건에 맞는 아이콘이 없다.</p>';
+}
+draw();
+</script>
+</body>
+</html>
