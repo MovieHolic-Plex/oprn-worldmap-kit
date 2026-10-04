@@ -5,6 +5,9 @@
 
 **갤러리:** https://movieholic-plex.github.io/oprn-worldmap-kit/ — 세트별 아이콘, 지도에 붙인 모습, 검수자 판정, 사람의 받기 여부.
 
+2026-10-04: **사람 선택 79장(원본 72 · 재작성 후보 7)**의 게임용 PNG 시트와 전체 칸 배열을 추가했다.
+미선택 267장은 선택 시트에 포함하지 않는다. 실제 해안선·높이·강·호수 자료로 지형을 만드는 `style=real`도 들어 있다.
+
 *World-map place icons (17 themes, 346 icons) for 16px RPG world maps in the EasyRPG World chipset style, plus the harness that builds, reviews and filters them. Icons are 3D scenes written in Python and raycast to 16px — no generated images. Docs are in Korean.*
 
 ## 무엇이 들어 있나
@@ -16,6 +19,9 @@
 | `tiledata/worldmap-kit/iconsets/<세트>/` | 세트마다 `scenes.py`(장면 코드) · `sheet.png` · `manifest.json` · `preview/` |
 | `src/harnesses/worldmap-icons/` | 하네스 — 지도에 붙여 보기 · LLM 검수 · 받기/버리기 웹 화면 · 다시 그리기 판 |
 | `harness-data/worldmap-icons/decisions.json` | 이 저장소의 아이콘에 대한 실제 검수·결정 사본 |
+| `tiledata/worldmap-kit/selected/` | 사람이 고른 실제 PNG·SHA256·칸 사전·전체 배열·정상/누락 예시 |
+| `public/assets/worldmap-icons/worldmap-selected.png` | 기존 EasyRPG 지형 480칸 + 선택 아이콘. 16px · 30열 · 총 1,620칸 |
+| `tiledata/worldmap-kit/geo/` | Natural Earth·NOAA ETOPO1 실제 지리 자료와 출처. 지역 프리셋 20개 및 직접 범위 지정 |
 | `docs/` | 갤러리(GitHub Pages). `tools/export_gallery.py` 로 다시 만든다 |
 
 ## 어떻게 만드나
@@ -53,6 +59,10 @@ export WMI_HARNESS_DATA=~/.local/share/oprn/worldmap-icon-harness   # 데이터(
 python3 src/harnesses/worldmap-icons/harness.py intake --set joseon  # 지도에 붙인 그림 만들기(첫 실행은 지형 렌더로 몇 분)
 python3 src/harnesses/worldmap-icons/harness.py review --set joseon  # 검수 — codex CLI 필요
 python3 src/harnesses/worldmap-icons/harness.py serve --port 18313   # 받기/버리기 화면 → http://localhost:18313/
+
+# 이 공개본에 포함된 선택 PNG 사본으로 시트·사전을 다시 만들기(SQLite 불필요)
+python3 src/harnesses/worldmap-icons/bake.py build --snapshot
+python3 src/harnesses/worldmap-icons/bake.py check --snapshot
 ```
 
 - 검수·다시 그리기는 `codex` CLI 를 부른다. 모델은 `WMI_HARNESS_CODEX_MODEL`, 다시 그리기 엔진을 Claude Code 로 바꾸려면 `WMI_HARNESS_ENGINE=claude`.
@@ -66,8 +76,8 @@ python3 src/harnesses/worldmap-icons/harness.py serve --port 18313   # 받기/�
 
 ## 아직 없는 것
 
-- 받은 아이콘을 게임 엔진용 타일 시트로 굽는 단계
 - 성계 지도의 우주 지형층(성운·소행성대·항로) — 지금은 임시 별 바탕
+- 이 공개본은 Python 키트와 자료다. OPRN 편집기 도구·SQLite 프로젝트 본문은 포함하지 않는다.
 
 ## 라이선스
 

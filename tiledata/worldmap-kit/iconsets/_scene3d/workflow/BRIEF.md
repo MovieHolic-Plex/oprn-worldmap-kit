@@ -4,11 +4,11 @@
 이 지시문과 세트 지시가 전부다 — 저장소의 AGENTS.md·CLAUDE.md·openwiki 는 읽지 않아도 된다.
 
 ## 작업 폴더 — 여기에만 쓴다
-`~/wmi-sets/<세트 id>/` (이미 `build.py` 가 있다). `scenes.py` 를 쓰고(맨 위에 `sys.path.insert(0, '<저장소>/tiledata/worldmap-kit/iconsets/_scene3d')` — 상대 경로 금지) `python3 build.py` 로 찍는다.
-**저장소(`<저장소>`) 안의 파일은 읽기만 한다.** git·npm·테스트·다른 에이전트 띄우기 금지. 생성 이미지(이미지 모델) 금지 — 전부 코드로 지은 3D 장면이다.
+`~/wmi-sets/<세트 id>/` (이미 `build.py` 가 있다). `scenes.py` 를 쓰고(맨 위에 `sys.path.insert(0, '<repo>/tiledata/worldmap-kit/iconsets/_scene3d')` — 상대 경로 금지) `python3 build.py` 로 찍는다.
+**저장소(`<repo>`) 안의 파일은 읽기만 한다.** git·npm·테스트·다른 에이전트 띄우기 금지. 생성 이미지(이미지 모델) 금지 — 전부 코드로 지은 3D 장면이다.
 
 ## 도구 — 공용 렌더러 `_scene3d` (읽기 전용)
-경로: `<저장소>/tiledata/worldmap-kit/iconsets/_scene3d/`
+경로: `<repo>/tiledata/worldmap-kit/iconsets/_scene3d/`
 - `buildset.py` — 빌더. **카메라·칸 맞춤·시트·manifest 는 빌더가 한다.** 너는 장면만 짓는다. 맨 위 설명을 먼저 읽어라.
 - `oblique.py` — 레이캐스터. `Scene()`, `s.box(x0,x1,y0,y1,z0,z1, mat=, tex=, role=, contour=True, decals=(...))`, `ob.hip`, `ob.gable`, `s.cyl`, `s.cone`, `ob.Cone`, `s.patch`. 재질 `ob.MAT`, 결 tex: 'brick' 'shingle' 'plank' 'plain' 'fn' …
 - `east.py` — 동양식: `E.tile_roof`(오목 기와지붕), `E.hall`(전각), `E.Ellip`(타원체: 수관·구름·바위), `E.InvCone`(떠 있는 섬 밑), `E.oct_prism`/`E.oct_roof`(팔각탑), `E.pillars`, `E.gate_wall`, `E.hull`, `E.sail`.
@@ -17,7 +17,7 @@
 - `icons_v9_lib.py` — 색 램프(EasyRPG World.png 에서 뽑은 STONE·WOOD·ROCK·RED·BLUE·SNOW·LEAF·VOLC·LAVA·WATER·SAND·GOLD·GREY …), `hx('rrggbb')`, `_reg(ramp, 윤곽색)`.
 
 **견본(꼭 먼저 읽고 화풍을 맞춘다):**
-- `<저장소>/tiledata/worldmap-kit/iconsets/monster/scenes.py` — 이 규약대로 쓴 첫 세트(정면 카메라).
+- `<repo>/tiledata/worldmap-kit/iconsets/monster/scenes.py` — 이 규약대로 쓴 첫 세트(정면 카메라).
 - `.../iconsets/desert-east/lib/scenes_a.py`, `scenes_b.py` — 동양·사막 장면 22개(결이 좋다고 사용자가 받은 그림). 부품 쓰는 법을 여기서 배운다.
 - `.../iconsets/modern-sf/lib/scenes_a.py`, `scenes_b.py`, `modsf_kit.py` — 현대·SF 장면.
 - 원래 그림 미리보기: `.../iconsets/desert-east/preview/*.png`, `modern-sf/preview/*.png`.
