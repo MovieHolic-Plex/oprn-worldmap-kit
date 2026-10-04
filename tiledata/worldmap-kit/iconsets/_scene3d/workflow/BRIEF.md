@@ -5,7 +5,7 @@
 
 ## 작업 폴더 — 여기에만 쓴다
 `~/wmi-sets/<세트 id>/` (이미 `build.py` 가 있다). `scenes.py` 를 쓰고(맨 위에 `sys.path.insert(0, '<repo>/tiledata/worldmap-kit/iconsets/_scene3d')` — 상대 경로 금지) `python3 build.py` 로 찍는다.
-**저장소(`/home/main/z-project/...`) 안의 파일은 읽기만 한다.** git·npm·테스트·다른 에이전트 띄우기 금지. 생성 이미지(이미지 모델) 금지 — 전부 코드로 지은 3D 장면이다.
+**저장소(`<repo>`) 안의 파일은 읽기만 한다.** git·npm·테스트·다른 에이전트 띄우기 금지. 생성 이미지(이미지 모델) 금지 — 전부 코드로 지은 3D 장면이다.
 
 ## 도구 — 공용 렌더러 `_scene3d` (읽기 전용)
 경로: `<repo>/tiledata/worldmap-kit/iconsets/_scene3d/`
