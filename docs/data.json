@@ -23,7 +23,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 파란 못 앞에 천막 두 동이 있는 오아시스 야영지로 보인다.",
      "reasons": "천막은 좌우가 대칭에 가까운 윤곽이고 윗면과 남쪽 입구가 읽히며, 옆면이나 사선으로 물러나는 윗선은 뚜렷하지 않다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "c37fbb21cdbc976e2cd10817af4a27c4186584f234b02694fe1793dca57ccbcd"
     },
     {
      "name": "tent_camp",
@@ -39,9 +41,11 @@
      "ctx": "img/s00/001-ctx-x1.png",
      "verdict": "PASS",
      "codes": [],
-     "reads_as": "지도 1배에서 천막 세 동이 모인 작은 야영지로 보인다.",
-     "reasons": "천막 윤곽이 좌우 대칭에 가깝고 아래 경계가 수평이며, 경사진 천막 지붕과 남쪽 출입구가 보인다. 오른쪽 명암은 원뿔 천막의 곡면 음영으로 읽히며 별도의 동·서쪽 세로 옆면은 없다.",
-     "decision": "pick"
+     "reads_as": "지도 1배에서 천막 세 채와 가운데 모닥불이 있는 야영지로 읽힌다.",
+     "reasons": "세 천막 모두 좌우가 대칭에 가까운 원뿔형 지붕과 남쪽 출입구를 보이며, 별도의 동·서쪽 세로 벽면이나 사선으로 물러나는 경계가 없다. 출발 그림과 같은 야영지로 읽히고 1배에서도 세 천막의 구분이 유지된다.",
+     "decision": "pick",
+     "selected_candidate": "r2/E",
+     "sha256": "71ac75a3e8a1dcfdd8fc6e52c6fdd3dfa59e48ae50b4ea9740b220ee1596aebd"
     },
     {
      "name": "castle_dark_grand",
@@ -59,7 +63,9 @@
      "codes": [],
      "reads_as": "지도 1배 파일이 없어 확인 불가. 아이콘 확대에서는 바깥 성벽·문과 안쪽 높은 성이 있는 대성으로 보인다.",
      "reasons": "8배 그림에서 성벽 경계가 수평이고 좌우 윤곽이 대칭에 가까우며, 원통 탑의 타원형 윗면과 남쪽 벽·문이 보인다. 확실한 동·서쪽 옆면이나 사선 투영은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "f144946d5540426542583e759e4d9e596a71405e55c246196b89252ca8d96660"
     },
     {
      "name": "city_capital",
@@ -79,7 +85,9 @@
      ],
      "reads_as": "지도 1배에서 성과 작은 집들을 성벽으로 둘러싼 요새 도시로 보인다.",
      "reasons": "8배 그림의 왼쪽 외벽 x=48~104, 오른쪽 외벽 x=656~720, y=232~584에 남북으로 길게 이어진 세로 벽면과 어두운 측면 띠가 보인다. 동·서쪽 벽면까지 드러나 윗면과 남쪽 정면만 보이는 시점 계약에 어긋난다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "97e419901f373be76493ea505b176a526c0073ff86264bff483ea1410a71855a"
     },
     {
      "name": "castle_dark",
@@ -97,7 +105,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 두 둥근 탑과 중앙 성벽을 가진 어두운 성·요새로 보인다.",
      "reasons": "좌우 대칭의 원통 탑에 타원형 윗면과 남쪽 벽이 보이고, 중앙 성벽 경계는 수평이며 동·서쪽 옆면이나 사선으로 물러나는 윗면이 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "57233b0314137b352cca169958af2c3bcdf21024bece883f5b1cedbb75867fc6"
     },
     {
      "name": "flame_fortress",
@@ -111,13 +121,13 @@
      "place": "화염 요새",
      "img": "img/s00/005-icon.png",
      "ctx": "img/s00/005-ctx-x1.png",
-     "verdict": "FAIL",
-     "codes": [
-      "SIDE"
-     ],
-     "reads_as": "지도 1배에서 붉은 첨탑과 용암 바닥을 가진 성채로 읽힌다.",
-     "reasons": "8배 그림에서 오른쪽 앞탑 뒤, x=312~343 부근(원본 x=39~42)에 별도 명암의 세로 성벽 면이 붙어 있고 아래 경계가 뒤쪽으로 비스듬히 올라간다. 건물의 동쪽 옆면이 드러나 시점 계약에 어긋난다.",
-     "decision": "pick"
+     "verdict": "PASS",
+     "codes": [],
+     "reads_as": "지도 1배에서 붉게 타오르는 쌍첨탑과 용암 테두리를 두른 검은 요새로 보인다.",
+     "reasons": "8배 그림의 성벽과 낮은 탑에 윗면과 남쪽 정면이 함께 보이고, 벽 경계는 수평이며 깊이 방향으로 물러나는 옆면이 없다. 출발 그림의 화염 성채 정체성도 지도 1배에서 유지된다.",
+     "decision": "pick",
+     "selected_candidate": "r4/B",
+     "sha256": "116ca5274f704cb342a173ec63a2e802bdde6bb37feb48792c14bc97a339826b"
     },
     {
      "name": "pass_fortress",
@@ -133,9 +143,11 @@
      "ctx": "img/s00/006-ctx-x1.png",
      "verdict": "PASS",
      "codes": [],
-     "reads_as": "지도 1배에서 붉은 이층 문루와 사암 성벽을 갖춘 관문 요새로 보인다.",
-     "reasons": "지붕 윗면과 남쪽 성벽·문이 함께 보이며, 성벽 경계가 수평이고 좌우 윤곽이 거의 대칭이다. 동·서쪽으로 물러나는 세로 옆면은 보이지 않는다.",
-     "decision": "pick"
+     "reads_as": "지도 1배에서 붉은 이층 문루와 사암 성벽, 중앙 성문을 갖춘 관문 요새로 읽힌다.",
+     "reasons": "8배에서 두 지붕은 좌우 대칭의 윗면을 보이며 처마와 성벽 경계가 수평이다. 건물·망루에 깊이 방향으로 물러나는 별도 옆면이 보이지 않는다. 출발 그림의 지붕 좌우 명암이 수평 층으로 바뀌었고, 지도 1배에서도 같은 관문 요새의 읽힘이 유지된다.",
+     "decision": "pick",
+     "selected_candidate": "r5/A",
+     "sha256": "4f3c8623e1fd1a8ec133aa2a60198abdbc2fe071ab8b256e8ea1017d3d0d8dd2"
     },
     {
      "name": "cave_rock",
@@ -153,7 +165,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 갈색 바위 더미에 검은 입구가 뚫린 동굴로 보인다.",
      "reasons": "바위 윗부분과 남쪽으로 열린 어두운 입구가 함께 보이며, 지도에서도 동굴 입구가 뚜렷하다. 자연 바위의 비대칭 명암은 SIDE 면제 대상이고, 투영을 어긋나게 하는 마름모 윗면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "fb115976ffce24ab4d00e1669550c13d4984e3004f8073afcbb496d95341aaab"
     },
     {
      "name": "cave_vine",
@@ -169,9 +183,11 @@
      "ctx": "img/s00/008-ctx-x1.png",
      "verdict": "PASS",
      "codes": [],
-     "reads_as": "지도 1배에서 덩굴이 드리운 바위 동굴 입구로 보인다.",
-     "reasons": "바위 윗부분과 남쪽의 검은 입구가 함께 보이며, 지도에서도 동굴 입구가 구분된다. 자연 바위의 비대칭 명암은 SIDE 면제 대상이고 뚜렷한 사선 투영은 없다.",
-     "decision": "pick"
+     "reads_as": "지도 1배에서 초록 이끼 둔덕에 돌 테두리와 검은 입구가 있는 동굴로 읽힌다.",
+     "reasons": "둔덕 윗면과 남쪽 돌 틀·입구가 보이고, 돌 틀은 좌우가 거의 대칭이며 바닥은 수평이다. 출발 그림의 오른쪽으로 물러나는 돌 덩어리가 정리되어 같은 이끼·덩굴 동굴의 입구가 1배에서 더 명확하다.",
+     "decision": "pick",
+     "selected_candidate": "r6/D",
+     "sha256": "fc69ccdefe212f6177cdb9a013cd9ea04626e788ed41be1e69031d64d62ff632"
     },
     {
      "name": "stone_circle",
@@ -187,9 +203,11 @@
      "ctx": "img/s00/009-ctx-x1.png",
      "verdict": "PASS",
      "codes": [],
-     "reads_as": "지도 1배에서 돌기둥들이 푸른 빛을 둘러싼 작은 돌원으로 보인다.",
-     "reasons": "돌들이 타원형 바닥을 둘러싸고 윗면과 앞쪽 높이가 드러나며, 사선으로 물러나는 마름모 윗면 없이 돌원으로 읽힌다.",
-     "decision": "pick"
+     "reads_as": "지도 1배에서 푸른 제단을 둘러싼 고대 돌기둥 원으로 보인다.",
+     "reasons": "8배 그림의 돌기둥은 수평인 윗면과 남쪽 정면 몸통으로 표현되어 있고, 깊이 방향으로 물러나는 옆면이나 사선 윗면이 없다. 지도에서도 출발 그림의 푸른 중심과 돌원 구성이 유지되며 돌원 윤곽은 더 명확하다.",
+     "decision": "pick",
+     "selected_candidate": "r7/F",
+     "sha256": "7fdc7092dc3db951c88c1bd93ac4fda402d6cea7a700950f03bb46fb01a7a082"
     },
     {
      "name": "sky_island",
@@ -207,7 +225,9 @@
      "codes": [],
      "reads_as": "나무와 작은 건물, 폭포가 있는 공중에 떠 있는 섬으로 보인다.",
      "reasons": "넓은 지표 윗면과 아래로 뾰족한 암반이 부유섬으로 읽히며, 중앙 건물은 수평 지붕과 남쪽 정면이 보이고 별도의 동·서쪽 옆면이 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "b67219af138cd9017e71470d2e163ec7f09f6a145485191e532ff6178d35098a"
     },
     {
      "name": "city_fort",
@@ -225,7 +245,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 네 모서리 탑과 성벽으로 둘러싸인 작은 성곽 도시로 보인다.",
      "reasons": "탑의 타원형 윗면과 남쪽 몸통, 수평인 정면 성벽이 보이며 좌우 윤곽이 대칭에 가깝다. 건물에 뚜렷한 동·서쪽 옆면이나 사선으로 물러나는 윗면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "b80df34dfb46ef9e50a420e9c2b83e488d0bb755ef6501e15662d6463c481823"
     },
     {
      "name": "city_harbor",
@@ -243,7 +265,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 남쪽 부두에 범선이 정박한 성곽 항구 도시로 보인다.",
      "reasons": "탑의 타원형 윗면과 정면 몸통, 지붕 윗면과 수평인 남쪽 성벽·문이 보이며, 동·서쪽의 별도 세로 옆면은 뚜렷하지 않다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "286c7f629172f18474fd6b19ece377ca86706541d007931c68c9c42577ee25cb"
     },
     {
      "name": "giant_tree",
@@ -261,7 +285,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 주변 숲보다 큰 수관과 굵은 줄기를 가진 거목으로 보인다.",
      "reasons": "둥근 수관의 윗부분과 아래로 드러난 줄기·뿌리가 기준 거목과 같은 시점으로 읽히며, 사선으로 물러나는 인공 구조물은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "ac74f2998bbe983f9e7d82490b312d6cad6ac404b4e5a86d2d7138f7a8be7e4f"
     },
     {
      "name": "harbor_town",
@@ -281,7 +307,9 @@
      ],
      "reads_as": "지도 1배에서 여러 집과 두 부두, 돛단배가 있는 항구 마을로 읽힌다.",
      "reasons": "8배 그림에서 중앙 붉은 지붕 집의 오른쪽 벽(원본 x=30~34, 확대 x=240~279)에 정면과 명암이 다른 회색 옆면이 붙고, 벽 아래 경계가 오른쪽 위로 계단식으로 물러난다. 오른쪽 집에도 같은 옆면이 보여 남쪽 정면과 윗면만 보이는 시점 계약을 어긴다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "01728729ed2e631e5b15d2a252490ebe077ef8fb424964db9b9037e16a37deb9"
     },
     {
      "name": "log_village",
@@ -301,7 +329,9 @@
      ],
      "reads_as": "지도 1배에서 눈 덮인 목조 집 세 채와 침엽수가 모인 설원 마을로 보인다.",
      "reasons": "위쪽 큰 집의 오른쪽에 갈색 세로 옆벽이 붙어 뒤로 비스듬히 물러난다(원본 x=33~38, y=11~21; 8배 그림 x=264~311, y=88~175). 아래 두 집에도 같은 오른쪽 옆벽이 보여 윗면과 남쪽 정면만 보이는 시점 계약을 어긴다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "1c6f2ddfc6f346d0722bbab4aa4fea1ed337ae1318795047bf5b0238165871fe"
     },
     {
      "name": "town_bell",
@@ -321,7 +351,9 @@
      ],
      "reads_as": "지도 1배에서 높은 돌탑과 집들이 모인 마을로 보인다.",
      "reasons": "8배 그림의 오른쪽 위 붉은 지붕 집에서 정면 벽 오른쪽(x=288~327, y=120~167)에 갈색 옆면이 붙고 아래 경계가 오른쪽 위로 물러난다. 남쪽 정면과 윗면만 보여야 하는 시점 계약에 어긋난다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "town_red",
@@ -341,7 +373,9 @@
      ],
      "reads_as": "지도 1배에서 붉은 지붕 집 여섯 채가 모인 큰 마을로 읽힌다.",
      "reasons": "8배 그림에서 위쪽 중앙 집의 정면 오른쪽에 회색 세로 옆면이 붙고 아래 경계가 비스듬히 물러난다(원본 좌표 x=29~32, y=10~19; 8배 좌표 x=232~263, y=80~159). 아래쪽 왼쪽 집에도 같은 옆면이 보여 남쪽 정면과 윗면만 보이는 계약을 위반한다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "6d63ce05c218f2d7e6287bdfd602c4559560188e241bc603c85de5e39b90eff5"
     },
     {
      "name": "town_snow",
@@ -361,7 +395,9 @@
      ],
      "reads_as": "지도 1배에서 눈 덮인 지붕 여섯 채가 모인 큰 마을로 보인다.",
      "reasons": "상단 중앙 집의 오른쪽에 정면과 다른 명암의 갈색 세로 옆면이 붙어 있고, 아래 경계가 오른쪽 위로 물러난다(원본 x=30~33, y=10~19; 8배 이미지 x=240~271, y=80~159). 다른 집들에도 같은 오른쪽 옆면이 반복되어 시점 계약에 어긋난다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "3389ba46a5524ab0e9d30e82f5f93651b7f85229c38c19f7c4e2bfb00d7c45cb"
     },
     {
      "name": "windmill_farm",
@@ -381,7 +417,9 @@
      ],
      "reads_as": "지도 1배에서 풍차와 붉은 헛간이 있는 작은 농장으로 보인다.",
      "reasons": "8배 그림에서 붉은 헛간의 오른쪽(원본 좌표 x=42~46, y=30~41)에 정면과 명암이 다른 붉은 세로 옆면이 붙어 있고, 아래 경계가 오른쪽 위로 물러난다. 동쪽 옆면이 보이므로 시점 계약에 어긋난다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "crypt",
@@ -401,7 +439,9 @@
      ],
      "reads_as": "지도 1배에서 죽은 나무와 묘비가 딸린 작은 묘당으로 보인다.",
      "reasons": "8배 그림의 묘당 오른쪽 x=184~215, y=136~207 부근에 정면 벽과 명암이 다른 어두운 세로 옆면이 붙어 있어 동쪽 면이 보인다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "17588372f8b3f9cb80cfcd8caaddc7a263e3622c7656419fb4e8e2b60d5da433"
     },
     {
      "name": "desert_colonnade",
@@ -419,7 +459,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 상인방이 남은 두 기둥과 부러진 기둥이 있는 사막 폐허로 보인다.",
      "reasons": "8배 그림에서 상인방과 하단 석재의 경계가 수평이며, 윗면과 남쪽 정면이 보이고 깊이 방향으로 물러나는 뚜렷한 옆면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "b52991aaf2cba60aff6fb1eaaf421e8a1773d0301c83503ada75fbf8826eae5e"
     },
     {
      "name": "stepped_pyramid",
@@ -439,7 +481,9 @@
      ],
      "reads_as": "지도 1배에서 꼭대기에 작은 신전이 있는 계단 피라미드로 보인다.",
      "reasons": "8배 그림에서 중간 단 오른쪽 x=176~199, y=128~167과 밑단 오른쪽 x=208~239, y=184~231에 정면보다 어두운 세로 옆면이 붙어 있다. 각 단이 오른쪽 뒤로 물러나 동쪽 면을 드러내므로 윗면과 남쪽 정면만 보이는 시점 계약에 어긋난다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "0e97f002f7d8eebe7c1afe1cee666743c53cba38aae27f56638a848b39b13682"
     },
     {
      "name": "ruined_city",
@@ -457,7 +501,9 @@
      "codes": [],
      "reads_as": "무너진 탑과 성벽이 남은 석조 폐허 도시.",
      "reasons": "탑의 윗면과 남쪽 벽이 보이고 성벽·건물의 주요 위아래 경계가 수평이다. 명확한 동서 옆면이나 사선으로 물러나는 윗면이 없으며 지도에서도 부서진 건물군으로 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "4686c2c2f722625c5c8cb24ad0d377f7f7cfbd98ef564a1b8d6643ace9d689db"
     },
     {
      "name": "desert_temple",
@@ -477,7 +523,9 @@
      ],
      "reads_as": "지도 1배에서 중앙 계단과 꼭대기 출입구가 있는 사막의 계단식 신전으로 읽힌다.",
      "reasons": "8배 그림에서 꼭대기 신전 오른쪽(x=30~32, y=12~21)에 정면보다 어두운 세로 옆면이 붙어 있고, 중간 기단 오른쪽(x=35~36, y=22~28)에도 어두운 옆면이 드러난다. 좌표는 원본 48×48 픽셀 기준이다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "e5adb0093f6c8faafd3fb02dcd51fbd38089c0d02739dfa55e08651b6acdb666"
     },
     {
      "name": "giant_tower",
@@ -495,7 +543,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 푸른 빛이 꼭대기에 떠 있는 높고 거대한 석조 탑으로 보인다.",
      "reasons": "원통 몸통과 타원형 상단·기단이 거의 좌우 대칭이며, 수평 층 경계와 남쪽 출입문이 보인다. 오른쪽 명암은 원통의 곡면 음영으로 읽히며 별도의 옆면이나 사선 후퇴는 뚜렷하지 않다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "6723e9fafb24b0ec19416da2a40c52548dc58e31ef9add1984fae54b926cb59e"
     },
     {
      "name": "lighthouse",
@@ -513,7 +563,9 @@
      "codes": [],
      "reads_as": "모래 해안에 선 빨강·하양 띠의 작은 등대로 보인다.",
      "reasons": "좌우가 거의 대칭인 원통 몸통과 타원형 상부·받침이 보이며, 수평 띠와 남쪽 정면이 유지되어 기준 시점에 맞는다. 오른쪽 어두운 부분은 원통의 음영으로 읽히며 물러나는 옆면 윤곽은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "e55f05e0cc0fb2524ef2805a8cdd63e846dab13ef2a8e74f7f6318bec6b353f3"
     },
     {
      "name": "mage_spire",
@@ -531,7 +583,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 푸른 뾰족 지붕과 하얀 몸통을 가진 작은 첨탑으로 보인다.",
      "reasons": "지붕의 윗면과 남쪽 벽·문이 보이고 윤곽이 거의 좌우 대칭이다. 오른쪽 몸통의 어두운 부분은 원통의 음영으로 읽히며, 옆면이 비스듬히 물러나는 확실한 형태는 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "3b332cde23a72bda7246a654df4da708f2761789ab6ecf9ea581f988f010f0dd"
     },
     {
      "name": "witch_tower",
@@ -549,7 +603,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 늪 위 나무 말뚝에 세운, 휜 모자 지붕과 초록 창빛의 작은 탑으로 보인다.",
      "reasons": "모자 지붕의 윗면과 탑의 남쪽 몸통이 함께 보이고, 지붕 밑선과 받침 경계가 수평이며 뚜렷한 동·서쪽 옆면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "f81bb113f24bd5a79b2a1297d5e4f82cfb3ed2d39bbeba38c262b02958f903b4"
     },
     {
      "name": "adobe_village",
@@ -570,7 +626,9 @@
      ],
      "reads_as": "지도 1배에서는 황토색 건물 여러 채와 줄무늬 차양이 있는 작은 촌락으로 보인다.",
      "reasons": "8배 그림의 왼쪽 높은 건물 오른쪽 x=88~119, y=56~135에 어두운 세로 옆면이 붙어 있다. 같은 건물의 평지붕도 좌우 경계가 비스듬히 물러나는 평행사변형 윗면이라 정남쪽 위 시점 계약에 어긋난다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "5154deb6b0d4c876968c467d4c1eb7ff606fb526b8162f7408bc56bef4b0b26e"
     },
     {
      "name": "igloo_camp",
@@ -588,7 +646,9 @@
      "codes": [],
      "reads_as": "눈밭에 크기가 다른 이글루 여러 채와 침엽수가 모인 작은 촌락으로 보인다.",
      "reasons": "돔의 윗부분과 남쪽 출입구가 함께 보이고, 문과 눈벽 줄눈이 수평이며 별도의 동·서쪽 세로 옆면이나 사선으로 물러나는 윗면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "c6664f9954056eb03488601d7ac64c0b7e48b15afb948f3e601b9ade0823f790"
     },
     {
      "name": "mine_town",
@@ -608,7 +668,9 @@
      ],
      "reads_as": "지도 1배에서는 갱도 입구와 작은 탑이 붙은 광산 시설로 보인다.",
      "reasons": "8배 그림의 오른쪽 감는 바퀴 탑에서 x=216~239, y=80~175에 정면보다 어두운 갈색 세로 옆면이 붙어 있어 동쪽 면이 보인다. 갱도 입구 바위는 자연물 면제로 판단했다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "0231023203a121864fba6b9b741c1d80b1d67e50fe4769edd7a1e3492e1d75c7"
     },
     {
      "name": "monastery",
@@ -628,7 +690,9 @@
      ],
      "reads_as": "지도 1배에서 푸른 돔의 예배당과 종탑이 붙은 작은 수도원으로 보인다.",
      "reasons": "8배 그림의 오른쪽 종탑 x=216~247, y=104~231에 정면과 명암이 다른 회색 세로 옆면이 붙어 있고, 아래 경계가 오른쪽 위로 물러나 동쪽 면의 깊이를 드러낸다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "9c7c95df58fb53becc4b973d751b1ba843f3b71dcc6a8a052431f9d5b4b3d151"
     },
     {
      "name": "stilt_village",
@@ -646,7 +710,9 @@
      "codes": [],
      "reads_as": "푸른 물 위에 말뚝으로 세운 집 세 채가 모인 작은 수상 촌락으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 정면 벽·말뚝이 함께 보이고, 벽 경계가 수평이며 뚜렷한 동·서쪽 옆면이나 사선 후퇴가 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "01679b2a14d02282335cac700557402e9ce47f22e6836acb42a8a649e33bb731"
     },
     {
      "name": "treehouse_village",
@@ -664,7 +730,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 나무 아래 굵은 기둥 위에 초가집 두 채가 모인 나무 위 촌락으로 보인다.",
      "reasons": "두 오두막에 넓은 지붕 윗면과 남쪽 정면이 보이고 벽 경계가 수평이며, 건물의 동·서쪽 옆면은 뚜렷하지 않다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "a123b43629d1ef5ed5ef85eb294e3a9879568c9dadd3106423ed81e107955fd1"
     },
     {
      "name": "village_snow",
@@ -684,7 +752,9 @@
      ],
      "reads_as": "지도 1배에서 눈 덮인 집 세 채와 침엽수가 모인 설원 촌락으로 보인다.",
      "reasons": "8배 그림에서 왼쪽 아래 집의 오른쪽 x=104~127, y=176~223에 갈색 세로 옆면이 붙고 벽 하단이 오른쪽 뒤로 비스듬히 물러난다. 오른쪽 아래 집도 x=232~255, y=192~231에 옆면이 보여 윗면·남쪽 정면만 보이는 시점 계약을 어긴다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "29c1d4de885cfa816343da526d5622df0f3f6c23799b4638ec088fc357e56bf5"
     },
     {
      "name": "village_wood",
@@ -704,7 +774,9 @@
      ],
      "reads_as": "지도 1배에서 붉은 지붕 집 세 채와 덤불이 모인 작은 촌락으로 보인다.",
      "reasons": "8배 그림의 오른쪽 아래 집 오른편 x=216~239, y=216~239에 정면보다 어두운 갈색 세로 옆면이 붙고, 아래 윤곽도 오른쪽 위로 물러난다. 남쪽 정면과 윗면만 보이는 시점 계약에 어긋난다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "5796fede768ba92fed925e1e06e3e4b63bb7387bf9c4289f6151503072f9e594"
     },
     {
      "name": "volcano_altar",
@@ -724,7 +796,9 @@
      ],
      "reads_as": "붉은 분화구에서 용암이 흐르는 화산과 기슭의 작은 돌 제단으로 보인다.",
      "reasons": "8배 그림의 왼쪽 아래 돌 제단 오른쪽(x=80~95, y=208~239)에 정면보다 어두운 세로 면이 붙고 밑선이 위로 물러나 옆면이 보인다. 화산 자체는 자연물 면제 대상이지만 인공 제단에는 SIDE 기준이 적용된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "5593b3b1ff10810f347b68a9c625647caede1a758d96afadc021c9dfa9707086"
     }
    ]
   },
@@ -751,7 +825,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 깃대와 천막들이 모인 작은 야영지로 보인다.",
      "reasons": "원뿔 천막의 지붕과 남쪽 입구가 보이고, 큰 사선 윗면이나 지배적인 옆면 없이 지도에서 야영지로 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "5d861b4ad75fdc29a8c84dd117d2e3f638ed9222d3eea6232bd4a1640916fa98"
     },
     {
      "name": "게르 야영",
@@ -769,7 +845,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 흰 둥근 천막 두 채가 모인 작은 야영지로 보인다.",
      "reasons": "두 게르의 넓은 지붕과 남쪽 벽·입구가 보이며, 지도에서도 윤곽과 밝은 펠트색으로 야영지가 구분된다. 옆쪽 명암은 세트 예외 범위이며 윗면이 크게 기울지 않는다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "49b85859b8f406b356957786e32726164d400a4789dd3155eebf625bf6baae48"
     },
     {
      "name": "궁성 도시",
@@ -787,7 +865,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 여러 기와 문루와 큰 전각을 성벽으로 둘러싼 동양풍 궁성으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽·문이 함께 보이고, 정면 성벽과 지붕 중심선이 수평이며 옆면이 정면보다 좁아 세트 예외에 부합한다. 지도에서도 성벽·문루·중앙 전각이 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "032ea41416c0efae61e9d09210d0a44a134e9df004045e791bd5f6a4c7325182"
     },
     {
      "name": "산성 누각",
@@ -805,7 +885,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 석축 성벽으로 둘러싼 흙 언덕 위 동양식 다층 누각으로 보인다.",
      "reasons": "누각의 지붕 윗면과 정면, 수평으로 이어진 석축 전면이 보이며 지도에서도 성벽과 누각이 구분된다. 약간 보이는 옆면과 지붕의 기울기는 세트 예외 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "d8cd1ba0ff408b2cf63360d67c03936ea3139e40b87c59915fd048b581830678"
     },
     {
      "name": "산성 요새",
@@ -823,7 +905,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 중앙 성문과 양쪽 망루를 갖춘 석축 요새로 보인다.",
      "reasons": "양 망루와 중앙 문루가 좌우 균형을 이루며 지붕 윗면과 남쪽 벽·문이 함께 보이고, 지도에서도 요새 윤곽이 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "2ee8ba05d96ab691ea4ac48636841e5e42c353935d28b6a0fd10908aa13ff9fa"
     },
     {
      "name": "석굴 사원",
@@ -841,7 +925,9 @@
      "codes": [],
      "reads_as": "사암 바위에 어두운 입구와 회색 처마가 붙은 석굴로 보인다.",
      "reasons": "바위 윗면과 남쪽의 입구가 함께 보이고 처마는 수평에 가까우며, 지도 1배에서도 바위 속 동굴 입구가 구별된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "f20b2a47484434e8cd9b49e7b7e3d010cac82f9b3847e6e6448a426ab333324f"
     },
     {
      "name": "석등과 선돌",
@@ -857,9 +943,11 @@
      "ctx": "img/s01/006-ctx-x1.png",
      "verdict": "PASS",
      "codes": [],
-     "reads_as": "지도 1배에서 석등을 가운데 둔 선돌 무리로 보인다.",
-     "reasons": "석등의 지붕 윗면과 앞쪽 기둥이 구분되고 선돌 윤곽도 지도에서 읽히며, 세트 예외를 넘는 넓은 옆면이나 크게 기울어진 윗면은 없다.",
-     "decision": "pick"
+     "reads_as": "지도 1배에서 석등을 중심으로 선돌 세 개가 둘러선 작은 돌 유적으로 읽힌다.",
+     "reasons": "8배에서 선돌 셋의 밝은 윗면과 남쪽 몸통이 보이고 별도 옆면은 없다. 석등 지붕과 받침도 좌우 대칭이며 수평이다. 출발 그림의 어두운 옆면이 제거되었고, 지도 1배에서도 같은 장소가 더 또렷하게 읽힌다.",
+     "decision": "pick",
+     "selected_candidate": "r15/C",
+     "sha256": "45a951977da433fb84cdf2359dd68835a39a28487bcf646c9971048364cdbafa"
     },
     {
      "name": "신선의 섬",
@@ -877,7 +965,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 흰 구름 위에 떠 있는 초록 섬과 옥색 지붕 전각 하나로 보인다.",
      "reasons": "전각의 넓은 지붕 윗면과 수평인 정면 벽이 함께 보이고, 지도에서도 구름·섬·전각이 구분되어 부유섬으로 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "8f3f91e29b7dcafb01328a84ee6388bf883b0e220c853ffd5b1680cbb43d203a"
     },
     {
      "name": "읍성",
@@ -895,7 +985,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 문루와 내부 전각을 성벽으로 둘러싼 동양풍 성곽 도시로 보인다.",
      "reasons": "지붕 윗면과 남쪽 성문·벽이 함께 보이고, 지도에서도 성벽과 내부 전각이 구분된다. 측면의 깊이 표현은 이 세트의 허용 범위이며 전체 윗면이 크게 기운 평행사변형으로 보이지 않는다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "a478c5287c0206876e9d5d6f975f3adfef3cc339bb732fb76dd0265600d4321a"
     },
     {
      "name": "항구 읍성",
@@ -913,7 +1005,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 성벽과 탑으로 둘러싸인 해안 읍성, 앞쪽 나무 부두와 작은 붉은 돛으로 보인다.",
      "reasons": "지붕·성벽 윗면과 정면 벽이 함께 보이고, 세트 예외를 적용하면 측면과 기울기가 허용 범위이며 지도에서도 항구 읍성의 윤곽과 부두가 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "6a321afe5a9ad1ec0feee00f751f8a544ccf01dc8ff82ef7212302017edacd9d"
     },
     {
      "name": "사막 바오바브",
@@ -931,7 +1025,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 납작하고 넓은 수관과 불룩한 줄기를 가진 큰 나무로 읽힌다.",
      "reasons": "수관 윗면과 앞쪽 줄기가 함께 보이며, 지도에서도 불룩한 줄기와 납작한 수관이 뚜렷해 자연 랜드마크로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신목",
@@ -949,7 +1045,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 띠와 장식을 두른 큰 나무로 보인다.",
      "reasons": "둥근 수관의 윗부분과 세로 줄기가 함께 보이며, 지도에서도 붉은 띠와 큰 나무 윤곽이 구별된다. 크게 기울어진 평행사변형 윗면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "d104b9bb8e0d15a59b70df11a49457b7f558ccd5e689f4d6e838e66e551316db"
     },
     {
      "name": "기와집 마을",
@@ -967,7 +1065,9 @@
      "codes": [],
      "reads_as": "회청색 기와지붕 집들이 두 줄로 모인 큰 마을로 보인다.",
      "reasons": "지도 1배에서 여러 집의 지붕과 정면 벽·문이 구분되고, 지붕 윗면과 수평인 벽 경계가 보여 세트의 시점 예외 범위에 맞는다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "fdd66c6ada0643422c045866f4478cd30b3796329447b03a247b0796adcf6633"
     },
     {
      "name": "오아시스 마을",
@@ -985,7 +1085,9 @@
      "codes": [],
      "reads_as": "흙집과 돔 사원, 첨탑이 모인 사막풍 마을.",
      "reasons": "지도 1배에서도 흙집·돔·탑의 윤곽이 구분되며, 지붕 윗면과 정면 벽이 보이고 세트 예외를 넘는 옆면이나 큰 사선 투영은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "1b3f969f0fd8973322716f6828e3f33a3b439e787b0748f8812d048d536c3d0b"
     },
     {
      "name": "무너진 석탑",
@@ -1003,7 +1105,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 층이 일부 무너진 낮은 석탑 밑동과 주변 돌무더기로 보인다.",
      "reasons": "층의 윗면과 남쪽 벽이 함께 보이며, 수평인 층 경계와 짙은 윤곽 덕분에 지도에서도 석조 폐허로 읽힌다. 옆면과 윗면의 기울기는 세트 예외의 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "7192ea55ee28c0dbd44eeee9e90f293d954d0c18cec27588b59205ad012e08a9"
     },
     {
      "name": "모래에 묻힌 성채",
@@ -1021,7 +1125,9 @@
      "codes": [],
      "reads_as": "모래에 하단이 묻힌 성벽과 문루의 폐허로 보인다.",
      "reasons": "성벽·문루의 윗면과 남쪽 벽이 함께 보이고 주요 경계가 수평이며, 지도 1배에서도 끊어진 석조 벽과 모래에 덮인 밑부분이 구별된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "c9234e25020b597d33067573c3e8cd14f74f63ca5c44a258d82f4fe4ad20b06b"
     },
     {
      "name": "대사원",
@@ -1039,7 +1145,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 중앙 계단과 높은 석조 기단 위에 옥색 기와를 얹은 2층 사원 전각으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 정면이 함께 보이고 기단·층 경계가 수평이며, 지도에서도 두 층의 옥색 지붕과 중앙 계단이 지형과 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "38b63d42fb3899488e0bb7bfa5d52c1d00f84cc238b88d86315b0339153805d5"
     },
     {
      "name": "9층 팔각탑",
@@ -1057,7 +1165,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 처마가 여러 층 겹쳐진 높고 큰 전탑으로 보인다.",
      "reasons": "층마다 처마 윗면과 그 아래 벽이 보이고, 지도에서도 길쭉한 다층 탑의 윤곽이 뚜렷하다. 약간의 측면은 세트 예외 범위이며 윗면이 크게 기울어진 평행사변형으로 보이지 않는다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "1d89a98ac91172d851970f255a18883d01342033c7634863efe83ab5d5299874"
     },
     {
      "name": "3층 전탑",
@@ -1075,7 +1185,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 층마다 처마가 있는 가늘고 높은 3층 탑으로 보인다.",
      "reasons": "세 층의 처마와 세로 벽체가 구분되고 지붕 윗면도 보인다. 약간의 옆면은 세트 예외 범위이며, 지도에서 윤곽과 명암이 작은 탑의 형태를 유지한다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "fd72f321a03940e65be6490e6c18383057192060fb1354cd07ab5daff3b53ba7"
     },
     {
      "name": "사막 흙벽 마을",
@@ -1093,7 +1205,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 야자가 곁에 선 황토색 흙집 촌락으로 보인다.",
      "reasons": "평지붕의 윗면과 문이 있는 정면 벽이 읽히며, 돔과 야자가 촌락을 구분한다. 약간의 옆면은 세트 예외 범위이고 윤곽·명암도 지도에서 구별된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "05465e67d8d9b5511418e33f6ae180b2285ac68d493b3e0064e0e0dc30a69dd3"
     },
     {
      "name": "초가 촌락",
@@ -1111,7 +1225,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 누런 초가지붕 집들이 모인 작은 촌락으로 보인다.",
      "reasons": "세 채의 지붕 윗면과 갈색 남쪽 벽이 구분되고, 지도에서도 외곽과 촌락 형태가 읽힌다. 옆면과 지붕 기울기는 세트 예외의 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "9eb264ea4a346760536f06c9d78ca163a5571b9352de6ac068883dd5f23d7d01"
     },
     {
      "name": "화산 제단",
@@ -1125,13 +1241,13 @@
      "place": "화산",
      "img": "img/s01/021-icon.png",
      "ctx": "img/s01/021-ctx-x1.png",
-     "verdict": "FAIL",
-     "codes": [
-      "READ"
-     ],
-     "reads_as": "지도 1배에서는 꼭대기와 왼쪽 아래에 용암이 있는 회색 화산으로 보인다.",
-     "reasons": "8배 그림의 왼쪽 아래 x=16~103, y=144~215 부분은 주황색 용암과 회색 바위로 이어져 보이며, 작은 제단의 윗면·받침을 구별하기 어렵다. 지도에서도 제단이 별도 시설로 읽히지 않는다. 화산의 시점과 윤곽은 허용 범위다.",
-     "decision": "pick"
+     "verdict": "PASS",
+     "codes": [],
+     "reads_as": "붉은 용암이 찬 화산과 비탈 아래 작은 제단으로 보인다.",
+     "reasons": "8배 그림의 아래 중앙 제단(x=80~183, y=176~239)은 수평 윗면과 좌우 대칭 남쪽 정면만 보이며 옆면이 없다. 화구와 용암도 지도 1배에서 구분되어 출발 그림과 같은 장소로 읽힌다.",
+     "decision": "pick",
+     "selected_candidate": "r30/B",
+     "sha256": "aef0c6152f229b5688abfe1cf28d2f82556bc76dc050b2b2000090a32dd86b04"
     }
    ]
   },
@@ -1158,7 +1274,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 조명 기둥 옆에 여러 돔 텐트가 모인 작은 야영지로 보인다.",
      "reasons": "둥근 텐트의 윗부분과 남쪽 입구가 함께 보이며, 크게 기울어진 평행사변형 윗면 없이 지도에서 야영지로 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "2034d03681c2a77bf4278df2e404455b42a22b4ae1a173c556f13a8cda84e2f3"
     },
     {
      "name": "camp_b",
@@ -1176,7 +1294,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 여러 천막과 높은 안테나가 모인 작은 야영지로 보인다.",
      "reasons": "천막의 경사진 윗부분과 남쪽 출입구가 함께 보이며, 지도에서도 천막 군집과 무전 마스트가 구분되어 야영지로 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "7fa026f2f0d6ee1db74870b1d37d7aee7fda77d58878431148bdf49df9893d7d"
     },
     {
      "name": "capital",
@@ -1194,7 +1314,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 중앙 광장과 첨탑을 둘러싼 고층 빌딩 군의 대도시로 보인다.",
      "reasons": "높이가 다른 빌딩의 지붕과 정면 창 격자가 구분되며, 좁은 오른쪽 옆면과 지붕의 경사는 현대·SF 예외 범위이고 지도에서도 도시 윤곽이 선명하다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "0f1995534ada37c55673866b399578ce15af7029c0d45fb09b8cebda6f36587b"
     },
     {
      "name": "castle_a",
@@ -1212,7 +1334,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 높은 관측·레이더 타워와 방벽, 중앙 철문을 갖춘 군사 기지로 보인다.",
      "reasons": "격납고의 넓은 지붕과 남쪽 방벽·문이 함께 보이고, 약한 오른쪽 깊이 표현은 현대·SF 세트 예외 범위이며 지도에서도 기지 윤곽이 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "f1b23b06c0c49d5f64288a74afaec6ad0012d233639f1b89247c656bddd6dd0e"
     },
     {
      "name": "castle_b",
@@ -1230,7 +1354,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 네 포탑과 중앙 고층동, 앞쪽 문루를 갖춘 SF 군사 기지·요새로 보인다.",
      "reasons": "포탑의 윗면과 세로 몸통, 사령동 지붕과 정면, 문루가 구분되고 지도에서도 요새 윤곽이 읽힌다. 사령동 오른쪽의 좁은 옆면과 약한 경사는 현대·SF 세트 예외 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "39e1729241b422a0b94bd5a4d9e32f207f0d4fed85589a5099360a7bd87c236d"
     },
     {
      "name": "cave",
@@ -1248,7 +1374,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 철문과 환기구가 있는 작은 콘크리트 벙커 입구로 보인다.",
      "reasons": "8배 그림에서 문틀 위의 윗면과 남쪽 철문이 함께 보이고 윗선이 수평이며, 지도에서도 어두운 윤곽과 회색 문틀이 지형과 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "c5c9139b67d75163391417b43069512ec1698a4ab8b90bb2a86ffe95b875408b"
     },
     {
      "name": "circle",
@@ -1266,7 +1394,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 접시 안테나 세 개가 모인 위성 통신 시설로 보인다.",
      "reasons": "접시의 안쪽 면과 받침 기둥이 함께 보이고, 지도에서도 세 접시의 밝은 윤곽이 지형과 구분되어 안테나 어레이로 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "4b9052e170def3754ce8f85871da63aa467668f9251c52237fe7b06a66bc8890"
     },
     {
      "name": "floating",
@@ -1286,7 +1416,9 @@
      ],
      "reads_as": "고층 건물과 돔이 올라간 부유 원판 도시이며, 아래에 선명한 분홍색 타원이 보인다.",
      "reasons": "건물의 좁은 옆면과 수평에 가까운 지붕은 현대·SF 예외 범위이고 부유 도시로 읽힌다. 그러나 8배 그림 아래쪽의 큰 그림자 타원(x=144~535, y=328~503)이 지도 1배·3배에서는 강한 분홍색으로 표시되어, 그림자보다 별도 색판처럼 보이고 기준 그림의 명암·색감에서 크게 벗어난다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "349475c3618aa420855ae5ac4a2dbcbf6237766ac91e72e57bc2c1c5a7be5a99"
     },
     {
      "name": "fort_city",
@@ -1304,7 +1436,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 앞 문루와 네 모서리 탑이 고층 빌딩을 둘러싼 SF 방벽 도시로 보인다.",
      "reasons": "방벽·탑의 윗면과 남쪽 문루가 구분되고, 고층의 좁은 옆면과 지붕 경사는 현대·SF 예외 범위이며 지도에서도 성곽 도시의 윤곽이 읽힌다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "08e64e64309c770a7bb56c9eb8e41906f54a5be550ac5fee6eefcf59e9c190b7"
     },
     {
      "name": "harbor_city",
@@ -1322,7 +1456,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 화물선과 컨테이너 더미, 고층 건물이 모인 항구 도시로 보인다.",
      "reasons": "해안의 화물선·색깔별 컨테이너·문형 구조물·고층이 항만으로 읽히며, 고층의 좁은 오른쪽 옆면은 현대·SF 예외 범위이고 윤곽과 명암도 지도에서 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "180c70a172c9a1998149117d3e8126c74269f4fde93d77367074d5606aa34cce"
     },
     {
      "name": "landmark_nature",
@@ -1340,7 +1476,9 @@
      "codes": [],
      "reads_as": "푸른 태양광 패널이 여러 줄로 늘어서고 오른쪽 아래에 작은 관리동이 붙은 태양광 발전 단지.",
      "reasons": "지도 1배에서도 반복되는 푸른 패널 열이 태양광 농장으로 읽히며, 패널의 수평 윗선과 짙은 윤곽이 분명하고 관리동의 경미한 경사는 현대·SF 세트 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "7e2037aa3c86763be95bf9537f1ffa03a818f1f9afb6eca2b266183bc133ad65"
     },
     {
      "name": "large_town_a",
@@ -1358,7 +1496,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 낮은 주택들이 두 줄로 모인 교외 주택가로 보인다.",
      "reasons": "지붕 윗면과 창문·문이 있는 남쪽 벽이 함께 보이고, 지도에서도 주택 군집이 구별된다. 약한 오른쪽 깊이 표현은 현대·SF 세트의 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "e215498976adf087a8b370473779c071b056688f55c02a06c70427c4e68bc099"
     },
     {
      "name": "large_town_b",
@@ -1376,7 +1516,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 낮은 평지붕 주택 여섯 동이 모인 교외 주택가로 보인다.",
      "reasons": "지붕과 남쪽 벽·문이 함께 보이고, 약한 지붕 경사는 현대·SF 세트 예외 범위이며 지도에서도 주택 군집의 윤곽이 분명하다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "9c093c493a68db76b56fa778086c31b12e6171d2c829bd7d157d2cd9ab982b13"
     },
     {
      "name": "ruin",
@@ -1394,7 +1536,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 벽이 뜯긴 회색 건물과 낮게 무너진 잔해가 있는 폐허로 보인다.",
      "reasons": "몸체의 윗면과 정면이 보이고, 검게 뜯긴 중앙 벽과 오른쪽의 무너진 덩어리가 폐허로 읽힌다. 약간의 경사는 현대·SF 예외 범위이며 윤곽과 명암도 지도에서 구분된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "4922d6213b116816766360857234611bec343f20923ed6eadff87b18eb523a86"
     },
     {
      "name": "ruin_city",
@@ -1412,7 +1556,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 벽이 뚫리고 지붕이 무너진 고층 건물군과 잔해가 있는 폐허 도시로 보인다.",
      "reasons": "8배 그림의 좁은 오른쪽 옆면은 현대·SF 예외 범위이며, 비스듬한 상단은 파손된 윤곽으로 읽힌다. 지도에서도 창문 격자, 벽의 큰 구멍과 바닥 잔해가 식별된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "4208c0d8b8dd032a08bf6eea78f84f6dc3182552e4184b167c3e7dbb835a679d"
     },
     {
      "name": "shrine",
@@ -1430,7 +1576,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 큰 관측 돔과 부속 건물이 있는 SF 관측·연구 시설로 보인다.",
      "reasons": "중앙 돔의 윗부분과 남쪽 벽이 함께 보이고, 부속동의 작은 오른쪽 면은 현대·SF 예외 범위이며 지도에서도 윤곽이 분명하다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "d5c965f192fd4859a8eb530375f9e664c45b86bf7b25a9e37d8133c334cae355"
     },
     {
      "name": "tower_great",
@@ -1448,7 +1596,9 @@
      "codes": [],
      "reads_as": "넓은 기단 위에 전망 고리와 안테나가 달린 높은 SF 탑.",
      "reasons": "지도 1배에서도 넓은 기단·세로 탑 몸통·층진 전망 고리·안테나가 구분된다. 고리의 윗면과 정면 몸통이 보이며, 오른쪽 음영과 기울기는 현대·SF 세트 예외 범위이고 윤곽도 지형에서 분리된다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "3924d18ed8867a88147be0f72faeb4659d92260fded8719027ad3b3fc9f0232b"
     },
     {
      "name": "tower_small_a",
@@ -1466,7 +1616,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 적백 줄무늬 몸통과 꼭대기 안테나가 있는 작은 송신탑으로 보인다.",
      "reasons": "상단 플랫폼의 윗면과 세로 몸통이 구분되고, 지도에서도 줄무늬와 안테나가 식별된다. 오른쪽의 좁은 음영은 현대·SF 세트의 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "e467f6f3a985d33e6c695a286e3060406a47a96e5a9948b991605812a02e53fc"
     },
     {
      "name": "tower_small_b",
@@ -1484,7 +1636,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 흰 기둥 위에 세 날개가 달린 작은 풍력 터빈으로 보인다.",
      "reasons": "세 날개와 긴 기둥의 윤곽이 지도에서 구분되며, 기둥 오른쪽의 좁은 명암은 현대·SF 세트의 허용 범위이고 크게 기울어진 마름모 윗면은 없다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "60222cf32fbf953b4e9fd28d420232c016b160dabbd35db2cc3f2e29cb617990"
     },
     {
      "name": "village_a",
@@ -1502,7 +1656,9 @@
      "codes": [],
      "reads_as": "색이 다른 상자형 집들과 탑이 모인 작은 촌락.",
      "reasons": "지도 1배에서 여러 컨테이너형 집과 탑이 모인 촌락으로 읽히며, 지붕과 정면 벽이 구분되고 약한 오른쪽 옆면은 현대·SF 세트의 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "5675907fad4c820931e8c45d95f10abceb07f80e99d3497fbf9a8f1afe99a192"
     },
     {
      "name": "village_b",
@@ -1520,7 +1676,9 @@
      "codes": [],
      "reads_as": "붉은 헛간과 사일로, 작은 살림집이 모인 농가로 보인다.",
      "reasons": "지도에서 농가 건물군이 구분되고, 지붕 윗면과 정면 벽이 함께 보이며 윤곽과 크기감도 기준에 어울린다. 약한 오른쪽 명암은 현대·SF 세트의 허용 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "d1be82b8a74fb593623bb46f9376a46a0552cf380ddc150b7f6ab205a1f3d321"
     },
     {
      "name": "volcano",
@@ -1538,7 +1696,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 증기를 내뿜는 냉각탑과 낮은 건물이 붙은 발전 시설로 보인다.",
      "reasons": "냉각탑의 윗면과 세로 몸통, 터빈동의 윗면과 정면이 구분되며, 지도에서도 밝은 증기와 시설 윤곽이 읽힌다. 약한 오른쪽 옆면은 현대·SF 세트 예외 범위다.",
-     "decision": "accept"
+     "decision": "accept",
+     "selected_candidate": null,
+     "sha256": "c9a59da5061594f3a3db3604c0fa24c2cfff89594e883438f181750dff385c89"
     }
    ]
   },
@@ -1569,7 +1729,9 @@
      "codes": [],
      "reads_as": "주황색·하늘색 돔과 앞쪽 탐사차가 모인 작은 탐사 야영지.",
      "reasons": "돔의 윗부분과 탐사차의 윗면·수평 정면이 함께 보이며, 별도의 동서 옆벽이나 뒤로 물러나는 사선 없이 지도 1배에서도 야영지로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "이주민 돔 도시",
@@ -1587,7 +1749,9 @@
      "codes": [],
      "reads_as": "큰 유리 돔과 관측탑, 작은 돔이 모인 미래형 도시로 보인다.",
      "reasons": "중앙 돔의 윗부분과 남쪽 창문 벽이 함께 보이고, 전면 건물의 지붕·벽 경계가 수평이다. 돔 오른쪽의 어두운 부분은 곡면 명암이며 별도의 옆벽은 없다. 지도 1배에서도 큰 돔과 부속 시설이 수도 규모의 도시로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "군 전초기지",
@@ -1605,7 +1769,9 @@
      "codes": [],
      "reads_as": "감시탑과 정문 방벽을 갖춘 소형 기지·요새로 보인다.",
      "reasons": "사령동 지붕과 방벽 윗면에 깊이가 있고 남쪽 벽·문이 보이며, 벽 경계가 수평이고 별도의 동·서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "여왕 둥지",
@@ -1623,7 +1789,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 보라색 첨탑 다발과 발광 문을 가진 외계 둥지형 요새로 보인다.",
      "reasons": "좌우가 거의 대칭이고 둥근 기단의 윗면과 남쪽 발광 입구가 함께 보인다. 첨탑의 명암 외에 별도의 동·서 옆벽이나 사선으로 물러나는 벽 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "수정 동굴",
@@ -1641,7 +1809,9 @@
      "codes": [],
      "reads_as": "주황 바위에 검은 동굴 입구가 있고 둘레에 청록 수정이 돋은 장소로 보인다.",
      "reasons": "바위 윗부분과 남쪽의 큰 입구가 함께 보이며, 지도 1배에서도 주황 바위·어두운 입구·청록 수정이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "공명석 원",
@@ -1659,7 +1829,9 @@
      "codes": [],
      "reads_as": "검은 선돌들이 청록빛 수정과 빛 고리를 둘러싼 돌원으로 보인다.",
      "reasons": "지도 1배에서도 돌원과 중앙의 청록빛이 구분되며, 8배에서 돌의 윗면과 남쪽 몸통이 보이고 별도의 동·서 옆벽이나 사선으로 물러나는 윗면은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "중력 이상 부유섬",
@@ -1677,7 +1849,9 @@
      "codes": [],
      "reads_as": "보라색 지면과 푸른 돔을 얹은 역삼각 암반 주위로 작은 조각들이 떠 있는 부유섬.",
      "reasons": "지도 1배에서도 섬의 윗면·아래로 뾰족한 암반·분리된 조각이 구별되며, 돔과 기둥에 사선으로 물러나는 별도 옆벽이나 마름모 윗면이 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "방어 기지",
@@ -1695,7 +1869,9 @@
      "codes": [],
      "reads_as": "네 귀 포탑과 중앙 철문으로 둘러싸인 유리 돔 방어 기지로 보인다.",
      "reasons": "성벽 경계가 수평이고 탑 꼭대기·돔의 윗면과 남쪽 벽·문이 함께 보이며, 별도 옆벽 평면 없이 지도 1배에서도 요새 역할이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "우주항",
@@ -1713,7 +1889,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 발사 로켓과 탱크, 격납고, 두 착륙장이 모인 우주항으로 보인다.",
      "reasons": "격납고의 윗면과 남쪽 문 벽이 함께 보이고 경계가 수평이며, 별도의 동·서 옆벽 없이 로켓과 두 착륙장이 지도에서도 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "촉수 나무",
@@ -1731,7 +1909,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 굵은 보라색 줄기와 늘어진 촉수 가지, 분홍빛 끝을 가진 외계 나무로 보인다.",
      "reasons": "굵은 줄기와 양쪽으로 휘어 늘어진 가지가 지도에서 구별되며, 자연물의 입체 명암 외에 사선으로 물러나는 평면은 없다. 어두운 윤곽과 크기감도 기준에 맞는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "버섯 마을",
@@ -1749,7 +1929,9 @@
      "codes": [],
      "reads_as": "큰 버섯 집 세 채와 작은 버섯이 모인 버섯 마을로 보인다.",
      "reasons": "둥근 갓의 윗면과 줄기 집의 남쪽 정면·문이 함께 보이며, 별도의 옆벽이나 사선으로 물러나는 벽 경계 없이 지도 1배에서도 마을 군집이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "추락한 우주선",
@@ -1769,7 +1951,9 @@
      ],
      "reads_as": "지도 1배에서는 하늘색 결정이나 판 조각이 붙은 보라색 기계 잔해로 보인다.",
      "reasons": "8배 그림의 선체(x=24~215, y=80~175)가 뭉툭한 덩어리로 보이고, 아래 하늘색 조각(x=40~143, y=176~239)은 꺾인 날개인지 구분하기 어렵다. 위 하늘색 덩어리(x=120~183, y=8~87)도 연기보다 결정처럼 보여, 지도 1배에서 추락한 우주선이라는 장소가 분명하게 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "고대 문명 유적",
@@ -1787,7 +1971,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 기둥과 아치, 흩어진 잔해와 수정이 남은 고대 유적지로 보인다.",
      "reasons": "수평인 중앙 기단의 윗면과 남쪽 벽이 함께 보이며, 기둥·아치에 별도의 동서 옆벽이나 뒤로 물러나는 사선 윗면이 없다. 지도에서도 폐허의 구조물과 잔해가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "외계 신전",
@@ -1805,7 +1991,9 @@
      "codes": [],
      "reads_as": "계단 기단 위에 빛나는 고리와 양옆 기둥이 선 외계 제단·신전으로 보인다.",
      "reasons": "기단의 윗면과 수평인 남쪽 전면이 함께 보이고, 좌우 대칭 윤곽에 별도의 동·서 옆벽이 없으며 지도 1배에서도 외계 의식 장소로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "고대 오벨리스크",
@@ -1823,7 +2011,9 @@
      "codes": [],
      "reads_as": "계단 기단 위에 청록 문양과 꼭대기 수정이 빛나는 거대한 오벨리스크로 보인다.",
      "reasons": "기단의 윗면과 수평인 정면 계단이 보이고 첨탑 윤곽은 좌우 대칭에 가까우며, 별도의 옆벽 없이 지도 1배에서도 높은 탑으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "통신 안테나",
@@ -1843,7 +2033,9 @@
      ],
      "reads_as": "지도 1배에서는 작은 발광 기둥이나 표지등으로 보인다.",
      "reasons": "8배 그림의 몸통(x=16~55, y=88~183)이 밝은 세로 띠로 뭉쳐 격자탑 구조가 드러나지 않고, 머리(x=8~71, y=40~95)의 접시도 작은 밝은 덩어리로 축소된다. 지도 1배에서는 접시를 단 통신탑이라는 역할이 분명하지 않다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "수정 마을",
@@ -1861,7 +2053,9 @@
      "codes": [],
      "reads_as": "청록 수정이 솟은 주황 바위 움집 세 채가 모인 작은 촌락.",
      "reasons": "둥근 지붕 윗면과 남쪽 벽·문이 함께 보이며, 별도의 옆벽이나 사선으로 물러나는 벽 윗선 없이 지도 1배에서도 움집 무리와 수정이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "캡슐 마을",
@@ -1879,7 +2073,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 낮은 주거 세 동과 급수탑이 모인 작은 미래형 촌락으로 보인다.",
      "reasons": "8배에서 주거의 수평 지붕과 창·문이 있는 남쪽 벽, 급수탑의 윗면과 세로 몸통이 보이며, 사선으로 물러나는 별도 옆벽은 없다. 지도에서도 건물 군집의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 화산",
@@ -1899,7 +2095,9 @@
      ],
      "reads_as": "지도 1배에서는 회색 받침 위의 밝은 얼음 원뿔이나 플라스크처럼 보인다.",
      "reasons": "8배 그림의 꼭대기 x=88~175, y=0~79에서 둥근 청록 덩어리와 가는 목만 보이고 분화구의 윗면이 드러나지 않는다. 지도 1배에서는 분출과 얼음 산체의 구분이 약해 화산으로 읽히기 어렵다. 원뿔 오른쪽의 어두움은 명암으로 보이며 시점 위반은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -1930,7 +2128,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 천막을 중심으로 작은 천막들이 모인 야영지로 보인다.",
      "reasons": "천막의 윗부분과 남쪽 출입구가 함께 보이고, 별도의 동·서 옆벽이나 뒤로 물러나는 사선 윗면 없이 지도에서 야영지로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "로마",
@@ -1948,7 +2148,9 @@
      "codes": [],
      "reads_as": "콜로세움과 신전, 수도교, 붉은 지붕 주거지가 모인 로마풍 대도시·수도로 보인다.",
      "reasons": "콜로세움의 타원형 윗면과 남쪽 벽, 신전의 지붕과 정면 기둥이 함께 보이며 별도의 사선 옆벽은 없다. 지도 1배에서도 주요 건물과 도시 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "군단 요새",
@@ -1966,7 +2168,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 네 모서리 망루와 중앙 문이 있는 사각 목책 요새로 보인다.",
      "reasons": "좌우가 대칭에 가깝고 벽 경계가 수평이며, 내부 지붕 윗면과 남쪽 목책·문이 함께 보인다. 별도의 동·서 옆벽 평면은 보이지 않고 지도에서도 요새 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "미노스 궁전",
@@ -1984,7 +2188,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 기둥과 여러 높이의 평지붕을 가진 궁전·성채로 보인다.",
      "reasons": "넓은 지붕·테라스 윗면과 남쪽 벽·기둥이 함께 보이며, 수평 경계가 유지되고 사선으로 물러나는 별도 옆벽은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신탁 동굴",
@@ -2002,7 +2208,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 갈색 바위에 밝은 석조 문틀이 둘러진 어두운 동굴 입구로 보인다.",
      "reasons": "바위의 윗부분과 남쪽의 굴 입구가 함께 보이고, 입구 기둥에 별도의 사선 옆벽이 없으며 지도에서도 동굴로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "원형 극장",
@@ -2020,7 +2228,9 @@
      "codes": [],
      "reads_as": "반원형 계단 객석이 원형 무대를 둘러싼 석조 야외 극장으로 보인다.",
      "reasons": "좌우가 거의 대칭이고 반원 객석의 윗면과 남쪽의 수평 벽면이 함께 보이며, 지도 1배에서도 굽은 객석과 앞쪽 무대가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신들의 하늘섬",
@@ -2040,7 +2250,9 @@
      ],
      "reads_as": "구름 위에 금빛 지붕 신전과 나무가 있는 떠 있는 섬으로 읽힌다.",
      "reasons": "신전은 윗지붕과 남쪽 기둥 벽이 보이고 별도의 옆벽은 없다. 그러나 8배 그림 하단 구름 아래의 넓은 어두운 영역(원본 좌표 대략 x=24~67, y=49~61)이 지도 3배·1배에서는 선명한 분홍색 덩어리로 나타나 기준 칩셋의 윤곽·명암과 크게 다르다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "아크로폴리스",
@@ -2058,7 +2270,9 @@
      "codes": [],
      "reads_as": "바위 언덕 위 성벽과 기둥 신전, 언덕 아래 붉은 지붕 집들이 있는 성곽 도시.",
      "reasons": "신전의 지붕 윗면과 남쪽 기둥면, 수평 성벽이 함께 보이며 별도의 동·서 옆벽 없이 지도 1배에서도 언덕 위 신전과 아래 주거지가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "지중해 항구",
@@ -2076,7 +2290,9 @@
      "codes": [],
      "reads_as": "붉은 지붕의 신전·집 뒤로 돌 부두와 배, 오른쪽 등대가 있는 항구 도시로 보인다.",
      "reasons": "지붕·부두 윗면과 남쪽 벽이 함께 보이고 벽 경계는 수평이며, 별도의 동·서 옆벽 없이 지도 1배에서도 항구 도시로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "올림포스 산",
@@ -2096,7 +2312,9 @@
      ],
      "reads_as": "지도 1배에서는 구름 띠를 두른 단일 설산과 산기슭의 작은 붉은 지붕 집으로 보인다.",
      "reasons": "8배 그림에서 중앙 봉우리(x=144~239, y=40~143)는 뚜렷하지만, 좌우의 낮은 눈 봉우리(x=96~167 및 x=224~303, y=176~223)가 구름 띠와 합쳐져 지도 1배에서 눈 덮인 세 봉우리로 읽히지 않는다. 산기슭 건물(x=240~327, y=280~359)도 지도에서는 신전보다 작은 집으로 읽힌다. 별도의 옆벽이나 사선으로 물러나는 건물 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "빌라 마을",
@@ -2114,7 +2332,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 지붕 집들이 모인 마을로 보인다.",
      "reasons": "두 큰 건물의 지붕 윗면과 수평인 남쪽 벽·문이 함께 보이며, 별도의 동·서 옆벽이나 사선으로 물러나는 벽 경계가 없다. 지도에서도 건물 군집의 윤곽과 붉은 지붕이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "무너진 신전",
@@ -2132,7 +2352,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 기둥과 들보가 일부 남은 석조 신전 폐허로 보인다.",
      "reasons": "기단의 넓은 윗면과 수평인 남쪽 앞면이 함께 보이고, 선 기둥 둘과 들보·기운 잔해가 폐허를 드러내며 별도의 동·서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "폼페이",
@@ -2152,7 +2374,9 @@
      ],
      "reads_as": "붉은 지붕의 건물들과 흰 열주 신전, 뒤의 회색 산이 있는 마을로 보인다.",
      "reasons": "1배 지도에서 폐허 도시와 화산재에 반쯤 묻힌 집이 뚜렷하게 읽히지 않는다. 8배 그림의 중앙 하단 흰 열주 건물은 수평 상부와 규칙적인 기둥이 온전한 신전처럼 보이고, 좌측과 우측의 넓고 균일한 붉은 부분은 지붕 없는 벽보다 지붕이나 온전한 건물로 읽힌다. 별도의 동·서 옆벽이나 사선으로 물러나는 건물 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "파르테논",
@@ -2170,7 +2394,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 삼각 박공과 기둥 주랑을 갖춘 고전 신전으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 주랑·기단이 함께 보이고, 좌우 대칭 윤곽과 수평 기단을 유지하며 별도의 동·서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "파로스 등대",
@@ -2188,7 +2414,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 불빛이 있는 등롱을 얹은 높고 큰 석조 등대로 읽힌다.",
      "reasons": "사각 탑의 정면과 중층 양옆의 윗면이 함께 보이고 층 경계가 수평이며, 뒤로 물러나는 별도의 옆벽은 없다. 지도에서도 큰 탑의 윤곽과 상단 불빛이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "국경 감시탑",
@@ -2209,7 +2437,9 @@
      ],
      "reads_as": "지도 1배에서는 붉은 덮개를 얹은 가느다란 돌탑으로 보인다.",
      "reasons": "8배 그림의 몸체 x=8~55, y=104~215에서 목조 회랑과 횃불을 식별할 수 없어 설명의 감시탑 특징이 지도에서도 읽히지 않는다. 몸체 폭이 원본 약 6px로 좁고 돌벽의 윤곽과 명암 구분이 약해, 기준 탑보다 단순한 막대처럼 보인다. 별도의 동·서 옆벽이나 사선으로 물러나는 벽 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "기념 기둥",
@@ -2229,7 +2459,9 @@
      ],
      "reads_as": "지도 1배에서는 받침대에 세운 가느다란 석주와 갈색 꼭지로 보인다.",
      "reasons": "8배 그림의 기둥 머리(x=16~47, y=24~55)에 내려다보는 타원 윗면이 드러나지 않고, 받침대(x=8~55, y=136~215)도 수평 띠와 정면만 보여 전체가 정면 입면도로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "포도밭 농가",
@@ -2247,7 +2479,9 @@
      "codes": [],
      "reads_as": "붉은 지붕 농가와 부속 건물 앞에 줄지어 재배하는 밭이 있는 작은 농촌으로 보인다.",
      "reasons": "지붕 윗면과 문이 있는 남쪽 벽이 함께 보이고 벽 경계는 수평이며, 별도의 옆벽 없이 지도 1배에서도 농가와 밭의 구성이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "흰 마을",
@@ -2267,7 +2501,9 @@
      ],
      "reads_as": "지도 1배에서는 갈색 비탈에 모인 밝은 집들의 작은 촌락으로 보인다.",
      "reasons": "별도의 옆벽이나 사선으로 물러나는 상자 윗면은 보이지 않지만, 지도에서는 파란 돔 교회 둘이 식별되지 않는다. 8배 그림 중앙 x=72~135, y=96~143의 파란 부분은 한 덩어리로 뭉치고, 오른쪽 위 x=184~207, y=104~119의 파란 부분은 돔보다 사각 창처럼 보인다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "베수비오",
@@ -2285,7 +2521,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 화구와 용암 줄기, 연기가 있는 회녹색 화산으로 보인다.",
      "reasons": "왼쪽 솜마 능선과 원뿔의 남쪽 경사면, 화구 윗부분이 보이며 사선으로 물러나는 인공 구조물 없이 지도에서도 화산으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -2316,7 +2554,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 갈색 천막 두 동과 작은 모닥불이 있는 야영지로 보인다.",
      "reasons": "천막의 넓은 경사 윗면과 남쪽 출입구가 함께 보이며, 별도의 동·서 옆벽이나 뒤로 물러나는 사선 벽 경계는 없다. 지도에서도 야영지 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "검은 왕도",
@@ -2334,7 +2574,9 @@
      "codes": [],
      "reads_as": "높은 성벽 안에 첨탑 대성당과 검은 지붕 집들이 밀집한 어두운 성곽 수도.",
      "reasons": "성벽 상단과 지붕의 윗면, 남쪽 성벽과 성문이 함께 보이고 성벽 경계가 수평이며, 지도 1배에서도 대성당 중심의 성곽 도시로 읽힌다. 지붕과 원탑의 좌우 명암 차이는 별도 옆벽 평면으로 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마녀 사냥꾼 요새",
@@ -2352,7 +2594,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 흉벽과 각진 망루, 중앙 문이 있는 회색 요새로 보인다.",
      "reasons": "망루의 윗면과 남쪽 벽·문이 함께 보이고, 성벽 경계가 수평이며 별도의 동·서 옆벽이나 사선으로 물러나는 윗면이 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "흡혈귀 성",
@@ -2370,7 +2614,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 세 뾰족탑과 붉은 창을 가진 어두운 성으로 읽힌다.",
      "reasons": "넓은 지붕 경사면과 남쪽 성벽·중앙 문이 함께 보이고, 성벽 경계가 수평이며 별도로 뒤로 물러나는 동·서 옆벽은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "괴물 소굴",
@@ -2388,7 +2634,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 어두운 동굴 입구와 입구 앞에 흩어진 밝은 뼈 조각으로 보인다.",
      "reasons": "바위 윗부분과 남쪽의 검은 입구가 함께 보이며, 사선으로 물러나는 인공 구조물의 윗선 없이 지도에서도 동굴로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마녀의 돌원",
@@ -2406,7 +2654,9 @@
      "codes": [],
      "reads_as": "검은 선돌들이 붉은 불을 둘러싼 작은 의식 장소로 보인다.",
      "reasons": "선돌의 윗면과 남쪽 몸통이 보이고 별도의 옆벽 평면은 없으며, 지도 1배에서도 검은 돌무리와 중앙의 붉은 불이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "저주받은 떠 있는 성",
@@ -2427,7 +2677,9 @@
      ],
      "reads_as": "떠 있는 바위섬 위의 성과 작은 구름들, 그 아래 선명한 분홍색 덩어리로 보인다.",
      "reasons": "성의 지붕 윗면과 남쪽 벽·문은 보이며 별도의 동·서 옆벽이나 사선으로 물러나는 벽은 없다. 그러나 8배 그림 하단 x=168~591, y=344~503 부근의 넓은 어두운 영역이 지도 3배·1배에서는 선명한 분홍색 면으로 나타난다. 아래 안개로 읽히지 않고 기준 칩셋의 윤곽·명암에서도 크게 벗어난다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "피깃발 성채 도시",
@@ -2445,7 +2697,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 네 모서리 탑과 중앙 아성, 남쪽 성문이 있는 성곽 도시로 보인다.",
      "reasons": "좌우가 대칭에 가깝고 앞 성벽의 위·아래 경계가 수평이며, 지붕과 성벽 안쪽 바닥의 윗면 및 남쪽 벽·문이 함께 보인다. 별도의 동·서 옆벽 평면은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "늪 항구",
@@ -2463,7 +2717,9 @@
      "codes": [],
      "reads_as": "물가의 나무 부두에 배가 붙어 있고 창고와 탑이 모인 항구 도시로 보인다.",
      "reasons": "건물의 지붕 윗면과 남쪽 벽이 함께 보이고 벽 경계가 수평이며, 별도의 동·서 옆벽 없이 지도 1배에서도 부두·배·건물군이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "교수목",
@@ -2483,7 +2739,9 @@
      ],
      "reads_as": "잎 없는 나무에 밝은 줄이나 그네가 매달린 모습.",
      "reasons": "8배 그림 오른쪽 x=176~247, y=104~215의 줄은 넓은 사각 U자라 올가미보다 그네처럼 보인다. 왼쪽 x=72~103, y=208~279의 매달린 부분도 1배 지도에서는 올가미로 구별하기 어렵고, 까마귀는 식별되지 않아 교수목이라는 장소가 충분히 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마녀 오두막",
@@ -2501,7 +2759,9 @@
      "codes": [],
      "reads_as": "닭다리로 서 있는 작은 오두막과 보라 연기, 주변 말뚝·솥이 있는 마녀의 장소로 보인다.",
      "reasons": "8배 그림에서 지붕 경사면이 충분히 보이고 처마와 정면 벽의 경계가 수평이며, 별도로 뒤로 물러나는 옆벽 없이 정면 벽과 두 다리가 지도 1배에서도 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "역병 마을",
@@ -2519,7 +2779,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 어두운 집 여러 채와 앞쪽 묘비·울타리가 모인 음산한 마을로 보인다.",
      "reasons": "지붕 윗면과 남쪽 정면 벽·문이 함께 보이며, 사선으로 물러나는 별도 옆벽 없이 마을 군집과 묘지 울타리가 지도에서 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "엘프 유적",
@@ -2537,7 +2799,9 @@
      "codes": [],
      "reads_as": "덩굴이 감긴 밝은 돌문과 부러진 기둥이 남은 작은 폐허.",
      "reasons": "정면 돌문과 기둥 아래 바닥 윗면이 함께 보이고, 수평인 문틀에 별도의 옆벽이나 사선 후퇴가 없으며 지도 1배에서도 폐허로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "전쟁 폐허",
@@ -2555,7 +2819,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 불씨가 남은 무너진 집들과 성벽으로 이루어진 폐허 마을로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽·문이 함께 보이고 건물 경계가 수평이며, 별도의 동·서쪽 옆벽 없이 지도에서 폐허 집단으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "버려진 수도원",
@@ -2573,7 +2839,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 왼쪽 종탑과 아치 창이 있는 낡은 교회·수도원으로 보인다.",
      "reasons": "8배 그림에서 회당 지붕의 넓은 윗면과 아치 창이 있는 남쪽 벽이 함께 보이고, 지붕·벽 경계는 수평이다. 별도의 사선 후퇴 옆벽은 없으며 지도에서도 종교 건물의 윤곽이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해골 첨탑",
@@ -2591,7 +2859,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 긴 첨탑과 종루가 있는 검은 고층 탑으로 보인다.",
      "reasons": "8배 그림의 상단 첨탑 지붕과 남쪽 정면이 보이고, 층 경계가 수평이며 별도로 뒤로 물러나는 옆벽은 없다. 지도에서도 높은 탑의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마법사의 탑",
@@ -2609,7 +2879,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 보라 고깔과 보라 창이 있는 가느다란 돌탑으로 보인다.",
      "reasons": "고깔의 경사면과 남쪽 몸통이 함께 보이며, 원통 오른쪽의 어두운 부분은 곡면 명암으로 읽히고 별도의 옆벽이나 사선으로 물러나는 윗선은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "늪 마을",
@@ -2627,7 +2899,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 물가에 오두막 세 채가 모인 작은 촌락으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽·문이 함께 보이고 벽 경계가 수평이며, 별도의 동·서 옆벽 없이 지도에서도 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "숯쟁이 마을",
@@ -2647,7 +2921,9 @@
      ],
      "reads_as": "연기 나는 갈색 흙더미와 작은 오두막이 있는 작업장으로 보인다.",
      "reasons": "8배 그림의 왼쪽 가마(x=32~112, y=136~240)와 오른쪽 가마(x=144~216, y=176~240)는 둥근 갈색 덩어리로 보이며 가마 입구가 분명하지 않다. 지도 1배에서는 장작도 구별되지 않아 숯가마 둘을 둔 숯쟁이 촌락이라는 읽힘이 부족하다. 지붕 윗면과 남쪽 정면은 보이고, 별도의 동·서 옆벽이나 사선으로 물러나는 벽은 확인되지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "잿빛 화산",
@@ -2665,7 +2941,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 잿빛 원뿔을 따라 용암이 흐르는 화산으로 보인다.",
      "reasons": "정상 화구의 윗부분과 남쪽 경사면이 함께 보이며, 붉은 용암 줄과 어두운 외곽선으로 지도에서도 화산이 식별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -2696,7 +2974,9 @@
      "codes": [],
      "reads_as": "이끼 낀 바위의 동굴 입구와 오른쪽 물줄기, 앞의 작은 못으로 보인다.",
      "reasons": "바위 윗부분과 남쪽의 어두운 입구가 함께 보이고, 석문 상단은 수평이며 지도 1배에서도 동굴과 물이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "불의 던전",
@@ -2714,7 +2994,9 @@
      "codes": [],
      "reads_as": "붉은 바위에 검은 동굴 입구가 있고 용암이 흘러나오는 불의 동굴로 보인다.",
      "reasons": "바위 윗부분과 남쪽 문틀·입구가 함께 보이고, 문틀 윗선이 수평이며 별도의 사선 옆벽이 없다. 지도 1배에서도 붉은 바위·어두운 입구·주황색 용암이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "숲의 던전",
@@ -2732,7 +3014,9 @@
      "codes": [],
      "reads_as": "둥근 수관의 거목 아래, 뿌리 사이에 초록빛 어두운 입구가 있는 숲 동굴.",
      "reasons": "수관 윗부분과 남쪽 밑동·입구가 함께 보이고 사선으로 물러나는 면이 없으며, 지도에서도 뿌리 사이 입구가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 던전",
@@ -2750,7 +3034,9 @@
      "codes": [],
      "reads_as": "눈으로 덮인 푸른 얼음 동굴 입구로 보인다.",
      "reasons": "눈 언덕의 윗면과 남쪽의 어두운 입구가 함께 보이며, 아치 양옆에 사선으로 물러나는 별도 옆벽은 없고 지도 1배에서도 얼음 동굴로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마스터 검의 대좌",
@@ -2768,7 +3054,9 @@
      "codes": [],
      "reads_as": "나무 사이의 둥근 돌 단에 푸른 손잡이 검이 꽂힌 대좌로 보인다.",
      "reasons": "둥근 돌 단의 윗면과 수평인 남쪽 두께가 함께 보이며, 별도의 옆벽이나 사선 후퇴 없이 지도 1배에서도 검과 대좌가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "요정의 샘",
@@ -2786,7 +3074,9 @@
      "codes": [],
      "reads_as": "돌테로 둘러싼 작은 못에서 밝은 빛 기둥이 솟는 마법의 샘.",
      "reasons": "타원형 못의 윗면과 아래쪽 돌테의 정면 두께가 보이고, 사선으로 물러나는 별도 옆벽 없이 지도 1배에서도 빛나는 샘으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "봉인된 문",
@@ -2806,7 +3096,9 @@
      ],
      "reads_as": "지도 1배에서는 바위에 박힌 작은 석문과 안쪽의 모래시계 같은 금색 표식으로 보인다.",
      "reasons": "8배 그림 중앙 x=104~143, y=144~191의 금색·갈색 형태가 모래시계처럼 이어져 쇠사슬 X와 자물쇠로 구분되지 않는다. 지도에서는 어두운 문 안쪽이 열린 입구처럼 보여 봉인된 돌문이라는 설명이 읽히지 않는다. 수평 문틀과 위쪽 돌 면은 확인되며 별도의 동·서쪽 벽 평면은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "사막 신전 입구",
@@ -2824,7 +3116,9 @@
      "codes": [],
      "reads_as": "모래에 묻힌 작은 피라미드형 석조 유적과 어두운 입구로 보인다.",
      "reasons": "좌우가 거의 대칭인 피라미드 경사면과 남쪽 입구가 함께 보이며, 지도 1배에서도 외곽과 문이 구분된다. 오른쪽 음영은 경사면의 명암으로 별도의 옆벽이 아니다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "바람의 신전",
@@ -2842,7 +3136,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 높은 계단과 기둥, 푸른 바람 장식이 있는 작은 신전으로 보인다.",
      "reasons": "기단과 지붕의 윗면, 남쪽 기둥·입구가 함께 보이며 좌우 윤곽과 기단 경계가 대칭·수평이고 별도 옆벽은 없다. 지도에서도 신전으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "빛의 신전",
@@ -2860,7 +3156,9 @@
      "codes": [],
      "reads_as": "흰 계단과 기둥 위에 금빛 지붕이 솟은 작은 신전으로 보인다.",
      "reasons": "좌우 대칭의 윤곽에 지붕·기단 윗면과 남쪽 기둥·몸체가 함께 보이고, 계단 경계가 수평이며 별도의 동·서 옆벽은 없다. 지도 1배에서도 흰 신전과 금빛 지붕이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "어둠의 신전",
@@ -2878,7 +3176,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 보라빛 입구와 세 첨탑이 있는 검은 신전으로 보인다.",
      "reasons": "8배 그림에서 좌우 첨탑과 정면이 대칭에 가깝고, 기단·계단의 윗면과 수평 경계 및 남쪽 벽·입구가 보이며 별도의 사선 옆벽은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마법사의 외딴 탑",
@@ -2896,7 +3196,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 바위 위에 선 보라 고깔 지붕의 작은 마법사 탑으로 보인다.",
      "reasons": "좌우가 거의 대칭인 원통 몸통과 남쪽 벽, 내려다보는 고깔 지붕이 읽히며 별도의 옆벽 평면이나 뒤로 물러나는 사선은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -2929,7 +3231,9 @@
      ],
      "reads_as": "밝은 천막 두 동과 작은 모닥불, 오른쪽 짐이 있는 야영지로 보인다.",
      "reasons": "8배 그림의 왼쪽 천막(x=16~103, y=112~207)과 오른쪽 천막(x=120~199, y=112~199)은 삼각 박공과 출입구가 있는 정면 입면처럼 보이며, 뒤로 펼쳐진 지붕 윗면의 깊이가 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "한양 도성",
@@ -2947,7 +3251,9 @@
      "codes": [],
      "reads_as": "성곽 안에 큰 궁궐과 민가가 있고 남쪽에 중층 성문이 있는 도성으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 정면 벽·문이 함께 보이고 주요 벽 경계가 수평이며, 별도의 동·서 옆벽 없이 지도 1배에서도 성곽·궁궐·중층 성문이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "산성",
@@ -2965,7 +3271,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 작은 언덕을 석축 성벽으로 둘러싸고 뒤쪽에 장대를 세운 산성으로 보인다.",
      "reasons": "성벽의 위 통로와 남쪽 정면 벽·암문, 장대 지붕의 윗면이 함께 보이며 벽 경계가 수평이고 별도의 동·서 옆벽이나 사선 후퇴가 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "석굴",
@@ -2983,7 +3291,9 @@
      "codes": [],
      "reads_as": "큰 바위 아래 어두운 입구와 두 기둥이 있는 석굴로 보인다.",
      "reasons": "암반 윗부분과 남쪽 입구가 함께 보이고, 입구 위 처마는 수평으로 놓여 있으며 별도의 비스듬한 옆벽은 보이지 않는다. 지도 1배에서도 동굴 입구가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "고인돌",
@@ -3001,7 +3311,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 넓은 덮개돌을 두 받침돌로 떠받친 탁자식 고인돌 두 기로 보인다.",
      "reasons": "두 고인돌 모두 덮개돌의 윗면과 남쪽 받침면이 보이고, 별도의 옆벽이나 사선 후퇴 없이 기준 그림에 맞는 윤곽으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신선 봉우리",
@@ -3019,7 +3331,9 @@
      "codes": [],
      "reads_as": "흰 구름 위에 솟은 세 바위 봉우리와 중앙의 작은 정자, 봉우리에 붙은 나무로 보인다.",
      "reasons": "중앙 정자는 지붕 윗면과 수평 처마 아래 정면이 보이며 별도의 동·서 옆벽이나 뒤로 물러나는 사선이 없다. 지도 1배에서도 구름 위 봉우리라는 역할이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "읍성",
@@ -3037,7 +3351,9 @@
      "codes": [],
      "reads_as": "돌 성곽과 남쪽 성문 안에 기와집·초가가 모인 성곽 도시로 보인다.",
      "reasons": "지붕과 성벽 윗면, 남쪽 정면 벽·문이 함께 보이며 수평 경계와 좌우 대칭이 유지된다. 별도의 동·서 옆벽 없이 지도 1배에서도 성곽 도시로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "포구 고을",
@@ -3055,7 +3371,9 @@
      "codes": [],
      "reads_as": "성곽과 기와 건물, 선창과 배가 모인 해안의 항구 고을로 보인다.",
      "reasons": "지붕과 성벽 윗면에 깊이가 있고 남쪽 벽이 수평으로 드러나며, 별도의 동·서 옆벽이나 사선으로 물러나는 건물 윗선은 보이지 않는다. 지도 1배에서도 성곽 고을과 선창·배의 조합이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "당산나무",
@@ -3073,7 +3391,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 굵은 줄기의 큰 나무와 옆에 놓인 작은 돌 제물 표식으로 보인다.",
      "reasons": "수관 윗부분과 줄기 정면이 함께 보이며 사선으로 물러나는 구조가 없고, 지도에서도 주변 숲과 구별되는 거목 랜드마크로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "양반 마을",
@@ -3091,7 +3411,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 여러 기와집과 담장·대문, 작은 연못이 모인 마을로 보인다.",
      "reasons": "기와지붕의 윗면과 남쪽 벽·문이 함께 보이고 처마와 담장 경계가 수평이며, 별도의 동·서 옆벽이나 사선으로 물러나는 윗면이 없다. 지도에서도 건물 군집으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "장터 마을",
@@ -3109,7 +3431,9 @@
      "codes": [],
      "reads_as": "초가와 흰 차일 상점들이 모인 작은 장터 마을로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽이 함께 보이고 차일·벽 경계가 수평이며, 지도 1배에서도 여러 건물과 흰 장막이 모인 장터로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "무너진 석탑",
@@ -3129,7 +3453,9 @@
      ],
      "reads_as": "지도 1배에서는 작은 비석과 주변 돌조각으로 보인다.",
      "reasons": "8배 그림 중앙 x=72~151, y=112~215의 세로 석재가 비석처럼 읽히며, 주변 x=16~79 및 x=160~239의 돌조각에는 옥개석의 넓게 돌출된 처마 형태가 드러나지 않아 지도에서 무너진 석탑으로 식별하기 어렵다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "옛 궁터",
@@ -3149,7 +3475,9 @@
      ],
      "reads_as": "지도 1배에서는 담으로 둘러싸인 녹색 정원이나 텃밭이 있는 뜰로 보인다.",
      "reasons": "8배 그림 중앙(x=72~456, y=184~296)의 갈색 바닥과 녹색 덩어리가 가지런한 밭처럼 읽히고, 아래쪽 석축과 양옆 담은 연속된 직선으로 남아 있어 무너진 궁터의 주춧돌·담 잔해가 지도 1배에서 구별되지 않는다. 별도의 동·서 옆벽이나 사선으로 물러나는 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "산사",
@@ -3167,7 +3495,9 @@
      "codes": [],
      "reads_as": "회색 기와 대웅전과 앞쪽 문, 나무가 있는 사찰로 보인다.",
      "reasons": "대웅전 지붕의 넓은 윗면과 남쪽 정면 벽이 함께 보이고, 처마와 벽 경계가 수평이며 별도의 동·서 옆벽은 보이지 않는다. 지도 1배에서도 사찰 건물과 앞문이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "5층 목탑",
@@ -3185,7 +3515,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 층층이 지붕이 쌓인 높고 큰 목탑으로 보인다.",
      "reasons": "8배 그림에서 각 층의 지붕 윗면과 남쪽 정면 벽·문이 함께 보이고, 좌우 윤곽과 층 경계가 대칭·수평을 유지한다. 지도 1배에서도 다층 탑의 실루엣이 지형과 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "봉수대",
@@ -3203,7 +3535,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 돌로 쌓은 작은 탑 위에 밝은 연기가 한 줄 솟는 봉수대로 보인다.",
      "reasons": "8배 그림에서 돌 연대의 윗면과 남쪽 몸통이 보이고, 좌우 윤곽이 거의 대칭이며 별도의 사선 옆벽이 없다. 지도 1배에서도 돌탑과 위로 솟는 한 줄이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "어촌",
@@ -3221,7 +3555,9 @@
      "codes": [],
      "reads_as": "해안가의 초가와 작은 배가 있는 어촌으로 보인다.",
      "reasons": "8배 그림에서 초가의 넓은 지붕 윗면과 남쪽 벽이 함께 보이고, 별도의 동·서 옆벽이나 사선으로 물러나는 벽 경계가 없다. 지도 1배에서도 해안 촌락과 앞쪽 배의 형태가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "초가 마을",
@@ -3239,7 +3575,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 누런 초가지붕 세 채가 모인 작은 촌락으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽·어두운 문이 함께 보이며, 별도의 옆벽이나 뒤로 물러나는 사선 없이 지도에서도 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "백두산",
@@ -3257,7 +3595,9 @@
      "codes": [],
      "reads_as": "회색 산체 꼭대기에 눈 테두리와 푸른 화구호가 있는 산으로 보인다.",
      "reasons": "정상에 타원형 천지의 윗면과 남쪽 산비탈이 함께 보이며, 지도 1배에서도 산체와 푸른 정상부가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -3288,7 +3628,9 @@
      "codes": [],
      "reads_as": "캠핑카와 주황 텐트가 있는 작은 야영지로 보인다.",
      "reasons": "캠핑카의 넓은 윗면과 수평인 정면 벽, 텐트의 경사 지붕과 남쪽 입구가 보이며 별도의 동·서 옆벽은 없다. 지도 1배에서도 야영지로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "역 앞 도심",
@@ -3308,7 +3650,9 @@
      ],
      "reads_as": "지도 1배에서는 방송탑과 고층 빌딩이 밀집한 현대 도심으로 보인다.",
      "reasons": "8배 그림에서 왼쪽 고층 건물(x=8~248, y=184~520)은 간판과 창문이 있는 정면 위로 지붕 윗면이 거의 없고, 파란 고층 건물(x=440~568, y=168~584)도 꼭대기까지 창문이 이어져 정면 입면도로 보인다. 주요 건물들이 기준 그림처럼 윗면과 남쪽 벽을 함께 보여 주지 못한다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "병원",
@@ -3326,7 +3670,9 @@
      "codes": [],
      "reads_as": "흰 고층 본관과 낮은 부속동, 앞의 구급차가 있는 병원 단지로 보인다.",
      "reasons": "본관과 외래동에 넓은 윗면과 남쪽 정면 벽이 보이고 경계가 수평이며, 뒤로 물러나는 별도 옆벽 없이 지도 1배에서도 병원 단지의 형태가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "학교",
@@ -3344,7 +3690,9 @@
      "codes": [],
      "reads_as": "창문이 줄지어 있는 학교 본관과 초록 지붕 부속 건물, 앞 운동장으로 보인다.",
      "reasons": "본관과 체육관의 넓은 지붕 윗면 및 남쪽 정면 벽이 보이고, 벽 경계가 수평이며 별도의 동·서 옆벽은 없다. 지도 1배에서도 큰 시설과 운동장 구성이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "터널",
@@ -3362,7 +3710,9 @@
      "codes": [],
      "reads_as": "초록 언덕에 난 콘크리트 터널 입구로 보인다.",
      "reasons": "언덕 윗면과 남쪽의 어두운 입구가 함께 보이며, 콘크리트 상단은 수평이고 별도의 동·서 옆벽은 없다. 지도 1배에서도 터널 입구가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "원형 광장 분수",
@@ -3380,7 +3730,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 푸른 물과 중앙 물줄기가 있는 원형 돌 분수로 보인다.",
      "reasons": "타원형 수반의 윗면과 남쪽 돌벽이 함께 보이고, 별도의 옆벽 평면이나 사선으로 물러나는 모서리 없이 지도에서도 분수로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "비행장",
@@ -3400,7 +3752,9 @@
      ],
      "reads_as": "바다 위에 활주로·비행기·관제탑·건물이 바로 놓인 작은 비행장으로 보인다.",
      "reasons": "비행장 자체는 읽히고 건물의 윗면·남쪽 벽도 보인다. 그러나 8배 그림 하단 x=0~639, y=392~503의 활주로 아래와 건물 사이에 땅·암반이 없어, 지도 1배에서 요구한 ‘떠 있는 땅’으로 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신도시 단지",
@@ -3418,7 +3772,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 높이가 다른 아파트 네 동과 앞쪽 작은 놀이터가 있는 주거 단지로 보인다.",
      "reasons": "네 동 모두 수평인 지붕 윗면과 넓은 남쪽 정면 벽이 보이며, 사선으로 물러나는 별도 옆벽 없이 지도에서도 아파트 단지로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "항구 마을",
@@ -3436,7 +3792,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 등대·창고·터미널과 여객선이 모인 항구 마을로 보인다.",
      "reasons": "건물의 지붕 윗면과 남쪽 정면 벽이 함께 보이고 경계가 수평이며, 별도의 동·서쪽 옆벽 없이 지도에서도 등대·부두·배가 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "호수 공원 큰 나무",
@@ -3454,7 +3812,9 @@
      "codes": [],
      "reads_as": "큰 나무와 작은 수면, 벤치가 있는 물가 공원으로 보인다.",
      "reasons": "수관 윗부분과 앞쪽 줄기가 함께 보이고 수면의 앞뒤 경계가 수평이며, 지도 1배에서도 큰 나무가 자연 랜드마크로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "상점가",
@@ -3472,7 +3832,9 @@
      "codes": [],
      "reads_as": "초록 아케이드와 여러 간판·차양이 모인 큰 상점가로 보인다.",
      "reasons": "초록 지붕의 윗면과 가게의 남쪽 정면이 함께 보이고, 벽 경계가 수평이며 별도의 동·서 옆벽이나 뒤로 물러나는 사선이 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "폐공장",
@@ -3492,7 +3854,9 @@
      ],
      "reads_as": "지도 1배에서는 높은 굴뚝이 달린 붉은 벽돌 공장으로 보이며, 폐허라는 표지가 약하다.",
      "reasons": "8배 그림의 x=8~120, y=96~120 지붕이 연속된 수평 띠로 보여 깨진 톱니 지붕이 읽히지 않는다. x=8~184, y=152~200 정면 벽도 대부분 온전하며, 하단의 작은 잔해만으로는 지도 1배에서 폐공장으로 구별되지 않는다. 윗면과 남쪽 정면은 보이고 별도의 동·서 옆벽은 확인되지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "폐쇄된 놀이공원",
@@ -3512,7 +3876,9 @@
      ],
      "reads_as": "지도 1배에서는 관람차와 붉은 지붕이 있는 작은 놀이공원으로 보이며, 폐허라는 인상은 약하다.",
      "reasons": "8배 그림 오른쪽 위(x=312~456, y=104~272)의 롤러코스터는 끊김 없는 아치로 보이고, 왼쪽 관람차도 외곽 고리가 온전하다. 앞쪽 정문은 닫힌 형태지만, 지도 1배에서 파손·방치 흔적이 드러나지 않아 폐허 도시 역할을 읽기 어렵다. 별도의 동·서 옆벽이나 사선으로 물러나는 상자 윗면은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "동네 신사",
@@ -3530,7 +3896,9 @@
      "codes": [],
      "reads_as": "초록 지붕의 배전과 빨간 도리이가 있는 작은 신사로 읽힌다.",
      "reasons": "지붕 윗면과 남쪽 정면이 함께 보이고 좌우 윤곽과 처마선이 수평·대칭을 유지하며, 지도 1배에서도 빨간 도리이로 신사 역할이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "방송 타워",
@@ -3548,7 +3916,9 @@
      "codes": [],
      "reads_as": "가늘고 높은 첨탑과 두 단의 전망대가 있는 방송 타워로 보인다.",
      "reasons": "좌우가 거의 대칭이며 전망대의 타원형 윗면과 남쪽 몸통이 함께 보이고, 지도 1배에서도 큰 타워와 두 단의 전망대가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "소방망루",
@@ -3566,7 +3936,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 빨간 지붕을 얹은 가느다란 철골 망루로 보인다.",
      "reasons": "8배 그림에서 빨간 지붕 윗면과 수평 경계의 남쪽 망대 면이 보이고, 좌우 철골 다리가 거의 대칭이며 별도의 옆벽이나 뒤로 물러나는 사선이 없다. 지도에서도 작은 탑의 형태가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "교외 주택가",
@@ -3584,7 +3956,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 빨강·파랑 지붕 집 두 채와 작은 마당이 있는 주택 촌락으로 보인다.",
      "reasons": "두 집 모두 넓은 지붕 윗면과 문·창문이 있는 남쪽 벽이 보이고, 벽 경계가 수평이며 별도의 동·서 옆벽이 없다. 지도에서도 두 집의 윤곽과 색이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "시골 정류장 마을",
@@ -3604,7 +3978,9 @@
      ],
      "reads_as": "지도 1배에서는 파란 지붕과 빨간 지붕의 작은 상점 두 채처럼 보인다.",
      "reasons": "윗면과 수평 정면은 보이며 별도의 옆벽은 확인되지 않는다. 그러나 8배 그림의 오른쪽 아래 x=104~215, y=144~239 베이지색·파란색 덩어리는 지도에서 버스로 식별되지 않고, 왼쪽 x=8~119, y=104~231 구조물도 정류장과 자판기로 구분되지 않아 시골 버스 정류장 마을이라는 설명이 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "온천 화산",
@@ -3622,7 +3998,9 @@
      "codes": [],
      "reads_as": "김이 오르는 갈색 산 앞에 초록 지붕 숙소와 파란 노천탕이 있는 온천 장소.",
      "reasons": "료칸의 지붕 윗면과 수평인 남쪽 벽이 함께 보이고 별도의 옆벽이나 사선 후퇴가 없으며, 지도 1배에서도 산·김·숙소·탕이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -3653,7 +4031,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 파랑·주황 천막 두 개와 갈색 간판이 있는 작은 야영지로 보인다.",
      "reasons": "천막의 경사 지붕과 남쪽 출입구가 함께 보이고 윤곽이 좌우 대칭에 가까우며, 뒤로 물러나는 별도 옆벽 없이 지도에서도 야영지로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "대도시",
@@ -3671,7 +4051,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 방송탑과 고층 건물, 분수 광장을 갖춘 큰 현대 도시로 보인다.",
      "reasons": "건물의 지붕 윗면과 남쪽 정면 벽이 함께 보이고 벽 경계가 수평이며, 별도의 동·서 옆벽 없이 지도에서도 대도시의 규모와 주요 시설이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "리그 본부",
@@ -3689,7 +4071,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 파란 지붕과 기둥, 앞 계단을 갖춘 큰 석조 본부 건물로 보인다.",
      "reasons": "지붕 윗면과 남쪽 기둥·문이 함께 보이고, 좌우 대칭 윤곽과 수평 계단이 유지되며 별도의 동·서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "달맞이산 동굴",
@@ -3707,7 +4091,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 둥근 바위산 앞에 검은 동굴 입구가 있고 오른쪽에 사다리가 붙은 장소로 보인다.",
      "reasons": "둥근 바위의 윗부분과 남쪽 아치 입구가 함께 보이며, 사선으로 후퇴하는 별도 벽면 없이 기준과 비슷한 윤곽·크기감으로 동굴이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "바위 원",
@@ -3725,7 +4111,9 @@
      "codes": [],
      "reads_as": "큰 바위 네 개가 가운데 작은 납작돌을 둘러싼 돌무리로 보인다.",
      "reasons": "지도 1배에서 네 바위와 가운데 돌이 구분되며, 윗부분과 남쪽으로 내려오는 입체감이 보이고 사선으로 물러나는 윗면은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "하늘 기둥 섬",
@@ -3746,7 +4134,9 @@
      ],
      "reads_as": "지도 1배에서 구름 위 풀 덮인 작은 섬과 층층이 쌓인 사각 돌탑으로 읽힌다.",
      "reasons": "8배 그림 중앙 돌탑(x=240~384, y=8~296)은 층마다 정면 사각형만 보이고 꼭대기와 층 경계의 윗면이 거의 1px 띠여서 정면 입면도로 보인다. 지도 3배·1배에서는 구름 아래에 선명한 분홍 반원이 드러나 기준 칩셋의 암반·구름 명암과 크게 다르다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "체육관 도시",
@@ -3764,7 +4154,9 @@
      "codes": [],
      "reads_as": "흰 울타리 안에 큰 중앙 건물과 작은 집 넷이 모인 도시로 보인다.",
      "reasons": "중앙 체육관과 집들의 지붕 윗면·남쪽 벽이 함께 보이고 벽 경계가 수평이며, 별도의 동·서 옆벽 없이 지도 1배에서도 울타리로 둘러싸인 도시가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "항구 도시",
@@ -3782,7 +4174,9 @@
      "codes": [],
      "reads_as": "해안의 건물군과 여객선·부두·등대가 있는 항구 도시",
      "reasons": "지붕 윗면과 남쪽 정면 벽이 함께 보이고 벽 경계가 수평이며, 지도 1배에서도 배·부두·등대와 건물군이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "열매 거목",
@@ -3800,7 +4194,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 열매가 달린 넓은 수관과 굵은 줄기의 큰 나무로 읽힌다.",
      "reasons": "둥근 수관의 윗부분과 줄기 정면이 함께 보이고 사선으로 물러나는 구조가 없으며, 지도에서 거목의 윤곽과 열매가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "농장 마을",
@@ -3818,7 +4214,9 @@
      "codes": [],
      "reads_as": "붉은 헛간과 풍차, 작은 살림집이 울타리·건초와 모인 농장 마을.",
      "reasons": "헛간·살림집의 넓은 지붕 윗면과 남쪽 벽이 함께 보이고 경계가 수평이며, 풍차 오른쪽 명암은 별도의 옆벽이 아니다. 지도 1배에서도 농장 시설과 집의 집합으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "회복소 마을",
@@ -3839,7 +4237,9 @@
      ],
      "reads_as": "지도 1배에서는 빨강·파랑 지붕의 집 네 채와 나무가 있는 작은 마을로 보이며, 회복소 표식은 식별되지 않는다.",
      "reasons": "8배 그림 왼쪽 위 빨간 지붕의 표식(x=72~103, y=200~223)은 갈색 테두리와 붉은 홈처럼 보여 십자로 읽히지 않는다. 지도 1배에서도 회복소를 구별할 수 없다. 네 건물의 넓은 단색 직사각형 지붕과 단순한 벽은 기준의 경사진 지붕 윤곽·명암·질감과 크게 달라 지도 칩셋에서 도드라진다. 별도의 동·서쪽 벽 평면은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "알프 유적",
@@ -3857,7 +4257,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 돌 기단 위에 석판 셋이 선 작은 유적으로 보인다.",
      "reasons": "기단의 윗면과 수평인 남쪽 단면이 함께 보이고, 석판 셋에도 별도의 동·서 옆벽이나 사선 후퇴가 없어 기준 시점에 맞는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "버려진 발전소",
@@ -3875,7 +4277,9 @@
      "codes": [],
      "reads_as": "톱날 지붕과 두 굴뚝, 녹슨 탱크가 있는 낡은 공장 시설로 보인다.",
      "reasons": "넓은 지붕 면과 창이 있는 남쪽 벽이 수평 경계로 구분되며, 뒤로 물러나는 별도 옆벽 없이 지도 1배에서도 공장 시설로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "전설 사당",
@@ -3893,7 +4297,9 @@
      "codes": [],
      "reads_as": "둥근 돌 단에 기둥과 파란 제단이 있고 뒤에 나무가 선 야외 사당.",
      "reasons": "돌 단의 타원 윗면과 남쪽 두께, 기둥의 윗면·정면이 보이며 좌우 윤곽이 대칭에 가깝다. 별도의 사선 옆벽 없이 지도 1배에서도 사당의 구성이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "방울탑",
@@ -3911,7 +4317,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 금빛 꼭대기 장식이 달린 오층 목탑으로 보인다.",
      "reasons": "층별 지붕 윗면과 남쪽 벽이 보이고 처마 경계가 수평이며, 좌우 대칭 윤곽에 별도의 동·서쪽 벽 평면은 없다. 지도에서 높게 쌓인 큰 탑으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "등대",
@@ -3929,7 +4337,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 작은 바위 받침 위에 선 적백 줄무늬 등대로 보인다.",
      "reasons": "8배 그림의 탑은 좌우가 거의 대칭이고 줄무늬 경계가 수평이며, 꼭대기 지붕의 윗부분과 남쪽 몸통이 함께 보인다. 오른쪽의 어두운 부분은 원통 명암으로 읽히고 지도 1배에서도 등대가 식별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "숲속 오두막 마을",
@@ -3947,7 +4357,9 @@
      "codes": [],
      "reads_as": "침엽수에 둘러싸인 작은 오두막 두 채의 촌락.",
      "reasons": "두 오두막 모두 넓은 지붕 윗면과 수평 경계의 남쪽 벽이 보이며, 별도의 옆벽이나 사선으로 물러나는 윗면은 없다. 지도 1배에서도 집 두 채와 침엽수가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "시작 마을",
@@ -3965,7 +4377,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 빨강·파랑 지붕 집 두 채와 뒤쪽의 큰 건물로 이루어진 작은 마을로 보인다.",
      "reasons": "세 건물 모두 지붕 윗면과 남쪽 벽이 보이며, 벽 경계는 수평이고 별도로 뒤로 물러나는 옆벽은 없다. 지도에서도 건물군의 윤곽과 지붕 색이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "불꽃섬 화산",
@@ -3983,7 +4397,9 @@
      "codes": [],
      "reads_as": "연기와 붉은 용암이 있는 화산, 오른쪽 기슭의 작은 건물로 보인다.",
      "reasons": "지도 1배에서 화산과 용암 줄기가 구분되며, 오른쪽 아래 건물은 수평인 지붕 윗면과 남쪽 벽이 보이고 별도의 사선 옆벽은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -4016,7 +4432,9 @@
      ],
      "reads_as": "지도 1배에서는 막대에 걸린 가죽 두 장과 작은 색 덩어리로 보이며, 사냥 야영지로 읽기 어렵다.",
      "reasons": "8배 그림의 왼쪽 갈색 천막과 가운데 흰 천막에 입구가 드러나지 않아 자루나 걸어 둔 가죽처럼 보인다. 아래 중앙의 붉고 회청색인 덩어리는 지도에서 모닥불·고기 꼬치로 식별되지 않는다. 별도의 동서 옆벽이나 사선으로 물러나는 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "부족 대마을",
@@ -4034,7 +4452,9 @@
      "codes": [],
      "reads_as": "목책과 뼈 아치 대문 안에 큰 족장 움집과 작은 움집들이 모인 부족 중심 마을.",
      "reasons": "움집의 넓은 지붕과 남쪽 벽·출입구가 함께 보이고 별도의 옆벽이나 사선으로 물러나는 윗면이 없으며, 지도 1배에서도 목책·큰 움집·불을 둘러싼 마을 구성이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "공룡족 둥지 요새",
@@ -4052,7 +4472,9 @@
      "codes": [],
      "reads_as": "회색 돌탑 셋이 노란 둥지를 둘러싼 작은 요새로 보인다.",
      "reasons": "중앙 둥지의 넓은 윗면과 탑·입구의 남쪽 정면이 함께 보이며, 별도의 동·서 옆벽이나 사선으로 물러나는 벽 윗선 없이 지도 1배에서도 요새 윤곽이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "매머드 뼈 전당",
@@ -4070,7 +4492,9 @@
      "codes": [],
      "reads_as": "뼈 테두리가 둘러싼 큰 가죽 돔 전당과 중앙 출입구로 보인다.",
      "reasons": "좌우가 거의 대칭이고 돔 윗면과 남쪽 출입구가 함께 보이며, 별도의 옆벽 평면이나 사선으로 물러나는 벽 윗선은 없다. 지도 1배에서도 돔과 뼈 둘레의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "벽화 동굴",
@@ -4088,7 +4512,9 @@
      "codes": [],
      "reads_as": "갈색 바위 언덕에 큰 검은 입구가 난 동굴로 보인다.",
      "reasons": "둥근 바위 윗면과 남쪽 입구 면이 함께 보이고 경계가 수평이며, 지도 1배에서도 동굴 입구가 분명하다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "선돌 원",
@@ -4106,7 +4532,9 @@
      "codes": [],
      "reads_as": "들보를 얹은 돌문과 그 앞·양옆에 선돌이 둘러선 작은 유적.",
      "reasons": "돌문의 들보가 수평이고 선돌의 윗면과 남쪽 몸통이 보이며, 별도의 옆벽이나 사선으로 물러나는 윗면 없이 지도에서도 돌 유적으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "떠 있는 바위섬",
@@ -4126,7 +4554,9 @@
      ],
      "reads_as": "풀과 움집 같은 원뿔 세 개가 얹힌 공중 바위섬과 오른쪽 폭포로 보인다.",
      "reasons": "8배 그림에서 암반·폭포 아래와 오른쪽으로 펼쳐진 짙은 영역(원본 좌표 대략 x=19~75, y=40~62)이 지도 3배·1배에서는 큰 분홍색 덩어리로 나타난다. 기준 칩셋과 크게 다른 색면이 섬 아래를 차지해 지도 위 이질감이 뚜렷하다. 윗바닥과 남쪽 암반은 보이며, 움집의 둥근 오른쪽 명암은 별도 옆벽으로 판단하지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "목책 부락",
@@ -4146,7 +4576,9 @@
      ],
      "reads_as": "갈색 목책으로 둘러싼 작은 취락으로 보인다.",
      "reasons": "윗면과 남쪽 문·목책은 보이고 수평 경계도 유지된다. 다만 8배 그림의 내부 움집과 바닥(원본 좌표 x=14~53, y=18~49)이 비슷한 황갈색의 흐린 명암으로 합쳐진다. 지도 1배에서도 내부 건물이 덩어리로 뭉쳐 보여, 기준 칩셋의 뚜렷한 건물 윤곽과 명암 구분에서 크게 벗어난다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "호숫가 수상 부락",
@@ -4166,7 +4598,9 @@
      ],
      "reads_as": "호숫가에 말뚝집과 배가 모인 작은 수상 마을로 읽힌다.",
      "reasons": "8배 그림 하단 x=16~615, y=376~503의 밝은 청록색 직사각형 수면이 지도 호수의 어두운 파란색·물결 명암과 크게 달라, 지도 1배에서도 별도 판처럼 튄다. 건물에는 지붕 윗면과 남쪽 벽이 보이며 별도의 동·서 옆벽은 확인되지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "거대 고사리 숲",
@@ -4186,7 +4620,9 @@
      ],
      "reads_as": "지도 1배에서는 긴 줄기의 야자수 또는 둥근 수관을 가진 나무 다섯 그루로 보인다.",
      "reasons": "8배 그림의 중앙 위 수관(x=104~255, y=72~175)과 좌우 수관은 둥근 잎 덩어리로 표현되어, 지도 1배에서 나무고사리의 길게 뻗는 깃꼴 잎이 읽히지 않는다. 키가 다른 다섯 나무와 자연 랜드마크는 읽히며 시점 위반은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "움집 마을",
@@ -4206,7 +4642,9 @@
      ],
      "reads_as": "지도 1배에서는 나무 두 그루 사이에 짚지붕 움집이 모인 마을로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽·문이 보여 시점은 맞지만, 설명의 모닥불과 고사리가 지도에서 읽히지 않는다. 8배 그림에는 움집이 여덟 채 있고 중앙 공간에도 모닥불이 없으며, 상단 x=56~152와 x=224~320의 식물은 고사리보다 줄기 있는 나무로 보인다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "공룡 화석",
@@ -4224,7 +4662,9 @@
      "codes": [],
      "reads_as": "흙더미에 반쯤 묻힌 큰 동물의 뼈대와 두개골로 보인다.",
      "reasons": "지도 1배에서도 밝은 두개골과 구멍이 난 아치형 뼈대가 흙과 구분되며, 윗면과 남쪽 두께가 함께 보여 기준 시점에 어긋나는 면은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "운석 충돌구",
@@ -4242,7 +4682,9 @@
      "codes": [],
      "reads_as": "바위 둑에 둘러싸인, 연기가 피어오르는 충돌구로 보인다.",
      "reasons": "타원형 충돌구의 윗면과 남쪽 바위 둑의 높이가 함께 보이며, 지도 1배에서도 둑·중앙 잔해·연기로 충돌 흔적이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "태양 제단",
@@ -4260,7 +4702,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 해 원반을 세운 계단식 돌 제단으로 보인다.",
      "reasons": "돌 계단의 윗면과 수평인 남쪽 단면이 함께 보이고, 좌우 대칭에 가까운 윤곽에 별도의 동·서 옆벽이나 사선으로 물러나는 윗선이 없다. 지도에서도 해 원반과 제단이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "거대 바위 기둥",
@@ -4280,7 +4724,9 @@
      ],
      "reads_as": "지도 1배에서는 풀 조금 붙은 길쭉한 층층 바위 기둥으로 보인다.",
      "reasons": "8배 그림의 꼭대기(x=24~136, y=88~176)에 움집의 지붕·벽·입구가 구분되지 않고, 몸통 오른쪽의 세로 무늬도 사다리로 읽히지 않는다. 지도 1배에서 바위 기둥은 읽히지만 꼭대기 움집과 사다리가 있는 거대한 탑 장소로는 읽히지 않는다. 둥근 바위 오른쪽의 어두움은 명암으로 보아 SIDE로 판정하지 않았다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "토템 기둥",
@@ -4298,7 +4744,9 @@
      "codes": [],
      "reads_as": "밝은 머리 장식과 붉은 띠가 있는 작은 토템 기둥으로 보인다.",
      "reasons": "윗부분의 밝은 윗면과 세로로 쌓인 정면 몸통이 보이며, 날개 판은 수평이고 별도의 옆벽이나 뒤로 물러나는 사선이 없다. 지도 1배에서도 기둥의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "나무 위 부락",
@@ -4316,7 +4764,9 @@
      "codes": [],
      "reads_as": "나무 줄기 위에 움집 두 채가 올라간 작은 나무 부락으로 보인다.",
      "reasons": "두 움집의 지붕 윗면과 문이 있는 남쪽 벽이 함께 보이며, 별도의 옆벽이나 사선으로 물러나는 건물 윗선은 없다. 지도 1배에서도 두 나무와 높은 위치의 집이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "동굴 집 마을",
@@ -4334,7 +4784,9 @@
      "codes": [],
      "reads_as": "바위 언덕에 여러 출입구가 있는 작은 동굴 집 촌락으로 보인다.",
      "reasons": "바위 윗면과 남쪽의 세 출입구가 함께 보이며, 지도 1배에서도 여러 집이 모인 바위 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "화산",
@@ -4352,7 +4804,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 용암이 흘러내리는 어두운 원뿔형 화산으로 보인다.",
      "reasons": "분화구 윗부분과 남쪽 경사면이 함께 보이며, 두 용암 줄기와 어두운 외곽선으로 지도에서도 화산이 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -4383,7 +4837,9 @@
      "codes": [],
      "reads_as": "흰 천막과 부서진 배 조각이 붙어 있는 해안 야영지.",
      "reasons": "천막의 경사진 천과 남쪽 입구가 보이며 별도의 동·서 옆벽은 없고, 지도 1배에서도 천막과 배 잔해의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해상 왕국 수도",
@@ -4403,7 +4859,9 @@
      ],
      "reads_as": "풀밭 위에 놓인 푸른 지붕의 성벽 도시·궁성으로 보인다.",
      "reasons": "윗면과 남쪽 성벽·문은 보이고 별도의 동서 옆벽이나 사선 후퇴는 없다. 다만 지도 1배에서 모래섬·해상 수도로 읽히지 않는다. 8배 그림 하단 좌우(x=80~272 및 448~656, y=528~744)의 부두·범선은 갈색 받침과 푸른 구조물로 뭉치며, 내부 운하·다리도 도시 장식처럼 보여 해상 장소를 식별하기 어렵다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해안 포대",
@@ -4421,7 +4879,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 돌 성벽과 높은 망루, 붉은 지붕 창고가 있는 작은 요새로 보인다.",
      "reasons": "성벽의 위·아래 경계가 수평이고 윗면과 남쪽 벽이 함께 보인다. 원형 망루의 오른쪽 음영은 별도 옆벽이 아니며, 지도에서도 요새 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해적 요새",
@@ -4439,7 +4899,9 @@
      "codes": [],
      "reads_as": "바위 언덕 위에 깃발과 망루가 있는 통나무 요새로 보인다.",
      "reasons": "지붕 윗면과 남쪽 목책·출입구가 함께 보이고 벽 경계는 수평이며, 별도의 동서 옆벽 없이 지도 1배에서도 요새로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해적 보물 동굴",
@@ -4459,7 +4921,9 @@
      ],
      "reads_as": "해안의 바위 동굴 입구와 모래 턱으로 보이며, 보물 상자·금화는 식별되지 않는다.",
      "reasons": "8배 그림의 입구 왼쪽 아래 x=40~87, y=192~239의 갈색 덩어리는 상자의 뚜껑·잠금쇠가 구분되지 않고, 입구 아래 x=88~207, y=208~247의 황갈색 부분은 모래 턱처럼 이어진다. 지도 1배에서는 상자·금화가 보물 표식으로 읽히지 않는다. 바위 윗부분과 남쪽 동굴 입구의 시점은 기준에 맞는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "석상 원",
@@ -4477,7 +4941,9 @@
      "codes": [],
      "reads_as": "돌 단 위에 나란히 선 석상 셋으로 보인다.",
      "reasons": "돌 단의 윗면과 수평인 남쪽 면이 함께 보이고, 석상은 정면을 향하며 사선으로 물러나는 별도 옆벽이 없다. 지도 1배에서도 세 석상의 배치가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "하늘섬",
@@ -4497,7 +4963,9 @@
      ],
      "reads_as": "초가와 야자가 있는 부유섬에서 폭포가 구름으로 떨어지는 모습으로 읽힌다.",
      "reasons": "8배 그림에서 섬 아래 구름 사이·뒤쪽(x=120~616, y=304~464)의 넓고 평평한 검은 영역이 지도 1배에서는 선명한 분홍색 덩어리로 나타나 기준 칩셋의 윤곽·색감에서 크게 벗어난다. 초가는 지붕 윗면과 남쪽 벽이 보이며 별도의 동·서 옆벽은 확인되지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해안 요새 도시",
@@ -4515,7 +4983,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 네 귀 포대와 성벽으로 둘러싸인 작은 요새 도시로 보인다.",
      "reasons": "지붕·포대 윗면과 남쪽 성벽·문이 함께 보이고, 주요 성벽 경계가 수평이며 전체 윤곽이 좌우 대칭에 가깝다. 다이아몬드 포대의 형태와 명암만으로 별도의 동·서 옆벽이나 경사 투영이라고 판단할 근거는 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "해적 항구",
@@ -4533,7 +5003,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 집들이 모인 나무 부두와 검은 돛배가 있는 항구로 보인다.",
      "reasons": "8배 그림의 왼쪽 술집과 중앙 집에 지붕 윗면과 남쪽 벽이 함께 보이고, 벽·부두 경계가 수평이며 별도의 동·서 옆벽은 보이지 않는다. 지도에서도 건물·부두·검은 돛이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "거대 산호초",
@@ -4551,7 +5023,9 @@
      "codes": [],
      "reads_as": "밝은 얕은 물 위에 붉은 가지 산호가 솟은 산호초 군락.",
      "reasons": "가지 산호의 윗부분과 남쪽 줄기가 함께 보이며, 지도 1배에서도 물과 산호 군락의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "고래 뼈 해변",
@@ -4571,7 +5045,9 @@
      ],
      "reads_as": "지도 1배에서는 모래톱 위 작은 천막이나 뾰족한 바위로 보인다.",
      "reasons": "8배 그림 중앙 x=104~256, y=152~304의 뼈가 연속된 늑골 아치보다 삼각형 천막의 양쪽 경사와 가운데 기둥으로 읽힌다. 아래 x=136~240, y=296~360의 흰 덩어리도 지도 1배에서는 두개골로 식별되지 않아 고래 뼈 해변이라는 설명이 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "섬 마을",
@@ -4589,7 +5065,9 @@
      "codes": [],
      "reads_as": "모래 바닥에 초가들이 모여 있고 야자가 둘러선 큰 마을로 읽힌다.",
      "reasons": "지붕 윗면과 수평인 남쪽 벽이 함께 보이며, 별도의 동·서 옆벽이나 뒤로 물러나는 사선은 없다. 지도 1배에서도 초가 밀집 마을의 윤곽이 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "난파선",
@@ -4607,7 +5085,9 @@
      "codes": [],
      "reads_as": "모래 위에 박힌 작은 난파선과 돛대 잔해로 보인다.",
      "reasons": "배 몸통의 윗부분과 남쪽 외판이 함께 보이며, 별도로 뒤로 물러나는 옆벽 평면은 없다. 지도 1배에서도 배 윤곽과 드러난 뼈대가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "가라앉은 도시",
@@ -4625,7 +5105,9 @@
      "codes": [],
      "reads_as": "물에 잠긴 지붕과 기둥이 남아 있는 작은 도시 유적.",
      "reasons": "돔의 윗면과 지붕·기둥의 남쪽 면이 보이며, 별도의 동서 옆벽이나 사선으로 물러나는 벽 윗선은 없다. 지도 1배에서도 수면 위 건물 잔해로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "바다 신전",
@@ -4643,7 +5125,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 푸른 돔과 흰 기둥 회랑이 있는 신전으로 보인다.",
      "reasons": "좌우 대칭에 가까운 윤곽과 수평 지붕·기단, 넓은 윗면과 남쪽 기둥·입구가 보이며 별도의 동·서 옆벽은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "큰 등대",
@@ -4661,7 +5145,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 돌 기단 위에 선 흰색 대형 등대로 보인다.",
      "reasons": "8배 그림에서 등실 지붕과 회랑·기단의 윗면 및 탑의 정면이 함께 보이고, 원통 오른쪽의 어두움은 곡면 명암이며 지도 1배에서도 긴 흰 탑과 붉은 띠·켜진 등실이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "등대",
@@ -4679,7 +5165,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 흰·빨강 띠와 붉은 꼭대기가 있는 작은 등대로 읽힌다.",
      "reasons": "8배 그림에서 꼭대기의 입체감과 세로 몸통이 보이고 띠 경계가 수평이며, 별도로 뒤로 물러나는 옆벽은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "수상 가옥 마을",
@@ -4697,7 +5185,9 @@
      "codes": [],
      "reads_as": "얕은 물 위에 초가 세 채가 모인 작은 수상 촌락.",
      "reasons": "지붕 윗면과 수평으로 놓인 남쪽 벽·기둥이 함께 보이며 별도의 옆벽이나 사선으로 후퇴하는 벽 경계가 없다. 지도 1배에서도 물 위 초가 무리가 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "어촌",
@@ -4715,7 +5205,9 @@
      "codes": [],
      "reads_as": "초가 두 채와 앞에 놓인 작은 배가 있는 해안 촌락으로 보인다.",
      "reasons": "두 초가 모두 넓은 지붕 윗면과 남쪽 벽·문이 보이고, 별도의 옆벽이나 뒤로 물러나는 사선 없이 지도 1배에서도 작은 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "화산섬",
@@ -4733,7 +5225,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 화구와 연기가 있는 작은 화산섬으로 보인다.",
      "reasons": "화구 윗면과 남쪽 산비탈이 보이고, 지도 1배에서도 붉은 화구·연기·모래 가장자리로 화산섬 역할이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -4764,7 +5258,9 @@
      "codes": [],
      "reads_as": "노보리 깃발과 흰 장막을 두른 소규모 군진·야영지로 보인다.",
      "reasons": "장막의 가로 경계가 수평이고 별도의 동·서 옆벽이 없으며, 뒤쪽 깃발과 앞쪽 장막·중앙 걸상의 배치가 깊이를 드러내 지도에서도 군진으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "교토풍 수도",
@@ -4782,7 +5278,9 @@
      "codes": [],
      "reads_as": "해자와 큰 축대 위 다층 일본식 성, 앞의 성하 마을과 오른쪽 탑이 있는 수도로 읽힌다.",
      "reasons": "지붕 윗면과 남쪽 벽·문이 함께 보이고 축대와 벽의 경계가 수평이며, 별도로 뒤로 물러나는 옆벽 없이 지도 1배에서도 큰 성과 마을의 구성이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "산성",
@@ -4800,7 +5298,9 @@
      "codes": [],
      "reads_as": "초록 언덕 위에 좌우 목조 망루와 중앙 문을 갖춘 산성.",
      "reasons": "좌우 망루와 중앙 본채에 지붕 윗면과 남쪽 벽이 보이고 벽 경계가 수평이며, 별도의 옆벽 평면은 없다. 지도 1배에서도 성문을 갖춘 요새로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "천수각 성",
@@ -4818,7 +5318,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 돌 축대 위에 다층 천수각과 좌우 망루가 있는 성으로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽이 함께 보이고, 층 경계와 앞 담은 수평이며 좌우 윤곽이 대칭에 가깝다. 별도의 동·서 옆벽은 보이지 않고 지도에서도 성으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "산속 동굴 사당",
@@ -4836,7 +5338,9 @@
      "codes": [],
      "reads_as": "갈색 바위산 입구에 붉은 도리이가 선 작은 동굴 사당으로 보인다.",
      "reasons": "바위 윗부분과 남쪽 입구가 함께 보이고, 도리이 가로대가 수평이며 별도의 사선 옆벽은 없다. 지도 1배에서도 바위산과 붉은 입구 표지가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "도리이 길",
@@ -4854,7 +5358,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 작은 붉은 도리이가 연속된 참배길과 양옆 석등으로 보인다.",
      "reasons": "8배 그림에서 도리이의 가로대와 윗면 경계가 수평이고 남쪽 기둥·문틀이 보이며, 뒤로 물러나는 별도 옆벽은 없다. 지도에서도 붉은 도리이 행렬이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신의 섬",
@@ -4872,7 +5378,9 @@
      "codes": [],
      "reads_as": "구름 위에 떠 있는 작은 신사 섬으로, 붉은 문과 양쪽 분홍 벚나무가 보인다.",
      "reasons": "지붕 윗면과 남쪽 정면이 보이고 건물 윤곽이 좌우 대칭에 가까우며, 별도의 옆벽이나 사선으로 후퇴하는 윗면 없이 지도 1배에서도 부유 신사 섬으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "성하 마을",
@@ -4890,7 +5398,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 높은 천수각과 성벽, 양옆의 기와집 줄이 있는 일본식 성곽 마을로 보인다.",
      "reasons": "천수각과 담의 정면 경계가 수평이며 지붕 윗면과 남쪽 벽이 함께 보이고, 별도로 뒤로 물러나는 옆벽 없이 지도에서도 성곽 도시로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "나가사키풍 무역항",
@@ -4908,7 +5418,9 @@
      "codes": [],
      "reads_as": "해안의 창고 건물들 앞에 큰 배와 작은 배가 붙어 있는 항구 도시.",
      "reasons": "지붕·안벽 윗면과 남쪽 벽이 함께 보이고 주요 경계가 수평이며, 뒤로 물러나는 별도 옆벽은 없다. 지도 1배에서도 건물군·접안 시설·배가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "벚나무 거목",
@@ -4926,7 +5438,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 분홍 꽃 수관과 굵은 줄기가 있는 큰 벚나무로 보인다.",
      "reasons": "수관 윗부분과 앞쪽 줄기가 함께 보이고 사선으로 물러나는 투영이 없으며, 지도에서 분홍 수관의 윤곽과 크기가 자연 랜드마크로 뚜렷하게 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "후지풍 설산",
@@ -4944,7 +5458,9 @@
      "codes": [],
      "reads_as": "넓은 원뿔형 산에 눈 덮인 정상과 양쪽 허리 구름이 있는 설산으로 보인다.",
      "reasons": "지도 1배에서도 설산의 실루엣과 눈 덮인 정상이 뚜렷하며, 좌우가 대칭에 가까운 원뿔과 둥근 밑면이 기준의 산 시점에 부합한다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "역참 마을",
@@ -4962,7 +5478,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 큰 중앙 건물과 양쪽 집들이 길을 둘러싼 마을로 보인다.",
      "reasons": "지붕 윗면과 남쪽 정면 벽이 함께 보이고 처마·벽 경계가 수평이며, 별도로 물러나는 옆벽 없이 지도에서 마을 군집이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "무너진 성 축대",
@@ -4980,7 +5498,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 윗부분이 무너진 회색 돌 성벽·축대 폐허로 보인다.",
      "reasons": "돌 축대의 윗면과 수평 경계의 남쪽 벽이 함께 보이며, 별도의 사선 옆벽 없이 지도에서도 이가 빠진 석조 폐허로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "불탄 성하 마을",
@@ -5000,7 +5520,9 @@
      ],
      "reads_as": "연기가 나는 무너진 성문 또는 석조 관문으로 보인다.",
      "reasons": "8배 그림 중앙 x=136~368, y=168~272의 큰 지붕·벽 덩어리와 그 아래 x=160~344, y=280~336의 넓은 빈 개구부가 관문 형태를 만든다. 지도 1배에서는 양옆 잔해도 문기둥처럼 뭉쳐 보여 불탄 성하 마을의 여러 폐가·숯 기둥으로 읽히지 않는다. 수평 경계와 윗면은 보이며 별도의 동·서 옆벽은 확인되지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "신사",
@@ -5018,7 +5540,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 도리이와 뒤쪽 지붕이 있는 일본 신사로 보인다.",
      "reasons": "8배 그림에서 중앙 배전 지붕의 윗면과 붉은 기둥의 남쪽 정면이 함께 보이고, 좌우 윤곽과 가로 경계가 대칭·수평이며 별도의 동서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "오층탑",
@@ -5036,7 +5560,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 몸체와 회흑색 처마가 층층이 쌓이고 금색 상륜이 솟은 높은 탑으로 보인다.",
      "reasons": "좌우가 대칭에 가깝고 처마의 윗면과 붉은 남쪽 벽이 함께 보이며, 각 층의 경계가 수평이고 별도의 동·서쪽 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "망루",
@@ -5056,7 +5582,9 @@
      ],
      "reads_as": "지도 1배에서는 둥근 머리가 달린 가느다란 석탑 또는 돌기둥으로 보인다.",
      "reasons": "8배 그림에서 x=8~71, y=80~143의 둥근 청회색 머리와 y=144~215의 좁은 몸통이 이어져 보인다. 지도에서는 두 층의 흰 벽과 층별 처마가 구분되지 않아 작은 돌 축대 위 2층 야구라로 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "농촌",
@@ -5074,7 +5602,9 @@
      "codes": [],
      "reads_as": "초가집 두 채와 물이 든 경작지가 붙어 있는 작은 농촌 촌락으로 보인다.",
      "reasons": "두 농가 모두 넓은 지붕 윗면과 수평 경계의 남쪽 벽이 보이며, 별도의 동·서 옆벽이나 사선으로 후퇴하는 윗면은 없다. 지도 1배에서도 집과 경작지의 구분이 유지된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "닌자 마을",
@@ -5095,7 +5625,9 @@
      ],
      "reads_as": "지도 1배에서는 침엽수에 둘러싸인 갈색 울타리나 숲속 시설로 보이며, 초가집 촌락과 망루는 분명하지 않다.",
      "reasons": "8배 그림에서 왼쪽 x=8~103, y=144~199와 오른쪽 x=120~215, y=136~199의 갈색 덩어리는 지붕·처마·정면 벽의 경계가 약해 지도에서 울타리처럼 읽힌다. 중앙 위 x=80~135, y=64~95의 망보는 대도 받침과 기둥이 나무에 섞인다. 기준 그림보다 건물 윤곽과 명암 구분이 크게 약하다. 별도의 동·서 옆벽이나 뒤로 물러나는 사선 윗면은 확인되지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "화산",
@@ -5113,7 +5645,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 정상에 붉은 용암과 회색 분연이 있는 작은 화산으로 보인다.",
      "reasons": "정상 화구와 남쪽 비탈이 함께 보이고 사선으로 물러나는 윗면이 없으며, 지도에서도 분연과 용암으로 화산을 구별할 수 있다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -5146,7 +5680,9 @@
      ],
      "reads_as": "지도 1배에서는 길쭉한 갈색 구조물 두 개와 바닥의 상자들로 보이며, 순록 유목 야영지로 명확히 읽히지 않는다.",
      "reasons": "8배 그림의 두 원뿔형 구조물(x=48~144, x=152~224)은 꼭대기의 굵고 긴 갈색 돌출부 때문에 천막보다 탑·굴뚝처럼 보인다. 하단 x=24~176의 갈색 덩어리에서는 썰매의 러너나 순록의 뿔·다리를 구분할 수 없으며, 지도 1배에서도 설명의 단서가 읽히지 않는다. 별도의 동·서쪽 벽 평면이나 사선으로 물러나는 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 왕성",
@@ -5164,7 +5700,9 @@
      "codes": [],
      "reads_as": "눈 덮인 성벽과 둥근 탑 안에 푸른 얼음 돔·첨탑 궁전이 있는 큰 왕성으로 보인다.",
      "reasons": "윗면의 넓은 설원 기단과 성벽 통로, 남쪽 정면 성벽·문이 함께 보이며 성벽 경계가 수평이고 좌우 윤곽이 대칭에 가깝다. 지도 1배에서도 성곽과 얼음 궁전이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 성",
@@ -5184,7 +5722,9 @@
      ],
      "reads_as": "푸른 얼음 첨탑과 작은 출입구가 있는 성으로 보인다.",
      "reasons": "8배 그림에서 하단 성벽(원본 좌표 x=7~40, y=34~44)은 정면 벽이 대부분이고, 그 위 통로는 y=34 부근의 얇은 띠로만 보인다. 첨탑 사이에도 내려다보는 지붕·바닥의 깊이가 드러나지 않아 기준보다 정면 입면도에 가깝다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "장군 전당",
@@ -5202,7 +5742,9 @@
      "codes": [],
      "reads_as": "눈 덮인 큰 목조 전당과 앞쪽의 방패 벽·붉은 깃발로 보인다.",
      "reasons": "넓은 지붕 윗면과 남쪽 벽·문이 함께 보이고, 지붕과 벽의 경계가 수평이며 별도의 동·서 옆벽이 없다. 지도 1배에서도 전당의 윤곽과 입구가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 동굴",
@@ -5220,7 +5762,9 @@
      "codes": [],
      "reads_as": "눈 덮인 바위 언덕 아래 푸른 얼음과 고드름이 둘러싼 동굴 입구로 보인다.",
      "reasons": "넓은 눈 덮인 윗면과 남쪽의 어두운 입구가 함께 보이며, 사선으로 물러나는 평면 없이 지도 1배에서도 얼음 동굴로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "룬 돌원",
@@ -5238,7 +5782,9 @@
      "codes": [],
      "reads_as": "눈 덮인 선돌들이 중앙 제단석을 둘러싼 돌원으로 보인다.",
      "reasons": "선돌의 윗면과 남쪽 세로 면이 보이고, 좌우가 거의 대칭이며 별도의 사선 옆벽 없이 지도 1배에서도 돌원과 중앙 제단이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "오로라 빙산섬",
@@ -5256,7 +5802,9 @@
      "codes": [],
      "reads_as": "오로라 아래 작은 집을 얹고 공중에 떠 있는 빙산섬으로 보인다.",
      "reasons": "중앙 롱하우스의 넓은 지붕 윗면과 수평인 남쪽 벽이 함께 보이고 별도의 옆벽은 없으며, 지도 1배에서도 오로라·빙산·집과 떠 있는 구도가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "통나무 요새 도시",
@@ -5274,7 +5822,9 @@
      "codes": [],
      "reads_as": "눈 덮인 집들이 목책과 네 귀 망루 안에 모인 통나무 요새 도시로 읽힌다.",
      "reasons": "지붕과 망루 윗면, 남쪽 목책과 중앙 문이 함께 보이고 주요 벽 경계가 수평이며, 지도 1배에서도 성곽과 내부 건물이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "피오르 항구",
@@ -5292,7 +5842,9 @@
      "codes": [],
      "reads_as": "눈 덮인 긴 건물 두 채와 돛배 두 척이 나란히 있는 항구 마을.",
      "reasons": "8배 그림에서 건물의 지붕 윗면과 남쪽 벽이 함께 보이고 벽 경계가 수평이며, 별도의 동·서 옆벽은 없다. 지도 1배에서도 건물과 두 배의 돛·선체가 구분되어 항구로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "세계수",
@@ -5310,7 +5862,9 @@
      "codes": [],
      "reads_as": "눈이 얹힌 넓은 수관과 굵은 줄기·뿌리를 가진 거목 랜드마크.",
      "reasons": "지도 1배에서도 눈 덮인 거목으로 읽히며, 수관 윗부분과 줄기 정면이 함께 보이고 사선으로 물러나는 평면 없이 기준에 맞는 시점을 유지한다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "눈 마을",
@@ -5328,7 +5882,9 @@
      "codes": [],
      "reads_as": "눈 덮인 통나무집 여러 채가 모인 큰 마을로 보인다.",
      "reasons": "눈 쌓인 지붕의 윗면과 남쪽 정면 벽이 함께 보이고, 처마와 벽 경계가 수평이며 별도의 옆벽은 없다. 지도 1배에서도 집 군집이 마을로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "룬석 무덤",
@@ -5346,7 +5902,9 @@
      "codes": [],
      "reads_as": "눈 덮인 봉분에 어두운 묘실 입구와 붉은 표식의 선돌이 선 무덤으로 보인다.",
      "reasons": "8배 그림에서 봉분의 넓은 윗면과 중앙 입구의 남쪽 면이 함께 보이며, 선돌에 사선으로 물러나는 별도 옆벽은 없다. 지도 1배에서도 눈 봉분·입구·붉은 표식이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼어붙은 폐허 도시",
@@ -5364,7 +5922,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 눈 덮인 석벽과 푸른 얼음 기둥이 남은 폐허 건물군으로 보인다.",
      "reasons": "눈 덮인 윗면과 남쪽 벽이 함께 보이고 벽 상단은 수평이며, 별도의 동·서 옆벽이나 사선으로 물러나는 윗면이 없다. 지도에서도 폐허와 얼음 기둥의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "오딘 신전",
@@ -5382,7 +5942,9 @@
      "codes": [],
      "reads_as": "눈 덮인 겹지붕과 높은 첨탑이 있는 목조 신전·교회로 보인다.",
      "reasons": "눈 덮인 지붕 윗면과 남쪽 정면 벽이 함께 보이고, 좌우 윤곽과 처마·벽 경계가 대칭·수평이며 별도의 옆벽 평면은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 첨탑",
@@ -5400,7 +5962,9 @@
      "codes": [],
      "reads_as": "눈 덮인 바위 위에 솟은 거대한 얼음 결정 첨탑으로 보인다.",
      "reasons": "8배 그림에서 좌우 윤곽이 대체로 대칭이고 결정 꼭대기의 경사면과 긴 남쪽 몸통이 함께 보인다. 별도로 뒤로 물러나는 옆벽은 없으며, 지도 1배에서도 높은 얼음 첨탑이 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "봉화탑",
@@ -5418,7 +5982,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 꼭대기에 붉은 불이 켜진 가느다란 돌 봉화탑으로 보인다.",
      "reasons": "불 아래의 눈 덮인 타원형 꼭대기와 긴 정면 몸통이 함께 보이며, 별도의 옆벽이나 뒤로 물러나는 사선 없이 작은 탑으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "롱하우스 마을",
@@ -5436,7 +6002,9 @@
      "codes": [],
      "reads_as": "눈 덮인 긴 목조 건물 둘과 작은 창고가 모인 촌락으로 보인다.",
      "reasons": "8배 그림에서 두 롱하우스의 넓은 눈 지붕과 남쪽 갈색 벽이 함께 보이고 벽 경계가 수평이다. 별도의 동·서 옆벽이나 사선으로 물러나는 윗면이 없으며, 지도 1배에서도 건물 무리가 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "이글루 마을",
@@ -5454,7 +6022,9 @@
      "codes": [],
      "reads_as": "눈 돔 집 세 채가 모인 작은 이글루 마을과 왼쪽의 갈색 썰매로 보인다.",
      "reasons": "돔의 윗부분과 남쪽 출입구가 함께 보이고, 별도의 옆벽 평면이나 사선으로 물러나는 건물 경계가 없으며 지도 1배에서도 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "설산 화산",
@@ -5472,7 +6042,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 눈 덮인 산 정상에 붉은 화구가 있는 화산으로 보인다.",
      "reasons": "8배 그림에서 정상의 화구 윗면과 남쪽 비탈이 함께 보이고, 윤곽은 좌우 대칭에 가까우며 지도 1배에서도 설산과 붉은 화구가 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -5505,7 +6077,9 @@
      ],
      "reads_as": "지도 1배에서는 밝은 왼쪽 선체와 어두운 오른쪽 선체가 붙은 우주선 한 덩어리로 보인다.",
      "reasons": "8배 그림의 중앙 탑(x=104~151, y=112~183)과 양쪽 보급선(왼쪽 x=8~103, 오른쪽 x=152~247)이 연결부와 겹쳐 하나의 선체 윤곽을 만든다. 지도 1배에서는 연료 탱크 정박탑과 작은 보급선 두 척의 구분이 사라져 보급·야영 거점으로 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "모항성 수도",
@@ -5523,7 +6097,9 @@
      "codes": [],
      "reads_as": "푸른 대양과 초록 대륙을 가진 큰 행성에 바위 고리와 시설이 달린 궤도 고리가 둘러진 우주 거점.",
      "reasons": "지도 1배에서도 행성·두 고리·궤도 시설이 구분되고, 검은 우주 배경에서 윤곽이 선명하다. 시설에 사선으로 후퇴하는 별도 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "군 요새 위성",
@@ -5541,7 +6117,9 @@
      "codes": [],
      "reads_as": "큰 원형 포구와 적도 띠가 있는 회색 인공 요새 위성.",
      "reasons": "지도 1배에서 회색 구체·큰 포구 접시·적도 참호가 읽히며, 구체 오른쪽의 어두움은 곡면 명암이고 별도의 사선 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "적 기함",
@@ -5559,7 +6137,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 띠와 높은 함교, 뒤쪽 추진 불꽃이 있는 우주 전함으로 보인다.",
      "reasons": "넓은 선체 윗면과 붉은 띠 아래 남쪽 면이 구분되고, 함교 상단도 윗면과 정면이 읽힌다. 쐐기형 함수의 경사는 선체 형태이며 별도의 동·서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "점프 게이트",
@@ -5579,7 +6159,9 @@
      ],
      "reads_as": "지도 1배에서 청록빛 금속 고리 안에 보라색 소용돌이가 있는 우주 포털로 읽힌다.",
      "reasons": "8배 그림의 고리 전체(x=16~239, y=8~239)가 정면을 향한 원형 테두리로 보이며, 상단(x=64~191, y=8~63)에 내려다보이는 윗면이나 뒤쪽 두께가 구분되지 않아 정면 입면에 가깝다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "소행성 고리",
@@ -5597,7 +6179,9 @@
      "codes": [],
      "reads_as": "밝은 얼음빛 작은 행성을 갈색 바위 고리가 둘러싼 모습.",
      "reasons": "지도 1배에서도 푸른 중심 천체와 바위 덩이의 타원 고리가 구분되며, 픽셀 윤곽과 명암도 기준에 맞는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "다이슨 고리 조각",
@@ -5615,7 +6199,9 @@
      "codes": [],
      "reads_as": "빛나는 별 위를 감싼 푸른 인공 고리의 끊어진 조각으로 보인다.",
      "reasons": "좌우 대칭의 곡선 고리에 밝은 윗면과 짙은 정면 두께가 함께 보이며, 탑에 별도의 사선 옆벽은 없고 지도 1배에서도 별과 고리 조각이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "요새 정거장",
@@ -5635,7 +6221,9 @@
      ],
      "reads_as": "지도 1배에서 네 방향 돌출부와 바퀴살이 있는 고리형 우주 정거장으로 보인다.",
      "reasons": "8배 그림에서 고리 전체(x=80~408, y=88~456)와 바퀴살이 정면을 향한 한 평면으로 보인다. 고리 상단에 내려다보는 윗면이 없고, 하단의 붉은 띠와 회색 띠도 정면 테두리로 보여 윗면+남쪽 면 시점이 성립하지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "우주 조선소",
@@ -5653,7 +6241,9 @@
      "codes": [],
      "reads_as": "주황색 골조 도크 안에 함선이 놓이고 왼쪽 아래에 관제동이 붙은 우주 조선소.",
      "reasons": "함선 상부와 남쪽 선체 면, 관제동의 윗면과 정면이 함께 보이며 도크 가로보는 수평이다. 별도 옆벽 평면은 없고 지도 1배에서도 도크와 함선의 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "가스 거인",
@@ -5671,7 +6261,9 @@
      "codes": [],
      "reads_as": "주황·크림색 줄무늬의 큰 행성과 아래쪽 붉은 폭풍, 왼쪽의 작은 얼음 위성으로 보인다.",
      "reasons": "지도 1배에서도 행성의 둥근 윤곽과 줄무늬·붉은 폭풍·푸른 위성이 구분되며, 우주 배경에서 명암과 크기감이 선명하다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "개척 행성",
@@ -5691,7 +6283,9 @@
      ],
      "reads_as": "초록 대륙이 있는 행성과 오른쪽 작은 위성, 왼쪽의 작은 회색 고리로 보인다.",
      "reasons": "8배 그림 왼쪽 x=0~79, y=168~239의 정거장은 지도 1배에서 작은 고리나 표식으로 축소되어 개척 정거장이나 큰 마을의 거주 시설로 읽히지 않는다. 행성과 위성은 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "함선 잔해",
@@ -5709,7 +6303,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 붉은 띠가 있는 회색 선체 두 조각과 주변 파편으로 된 함선 잔해로 보인다.",
      "reasons": "밝은 윗면과 어두운 남쪽 면이 구분되고, 별도의 사선 옆벽 없이 갈라진 선체와 파편이 우주 배경에서 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "파괴된 행성",
@@ -5727,7 +6323,9 @@
      "codes": [],
      "reads_as": "검은 우주에서 껍질이 갈라지고 밝은 주황색 속과 핵이 드러난 파괴된 행성으로 보인다.",
      "reasons": "지도 1배에서도 청록·녹색 껍질과 주황색 내부, 밝은 핵이 구분되며 어두운 윤곽과 픽셀 명암이 형태를 유지한다. 행성 자연물의 절단면과 곡면은 시점 계약 위반이 아니다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "고대 외계 유물",
@@ -5745,7 +6343,9 @@
      "codes": [],
      "reads_as": "금빛 고리에 둘러싸인 부유 수정과 돌기둥으로 된 외계 유물 장소.",
      "reasons": "지도 1배에서도 중앙 수정·금 고리·주변 기둥이 구분된다. 기둥에 뒤로 물러나는 별도 옆벽이 없고, 팔면체의 사선은 유물 자체의 형태로 읽힌다. 어두운 윤곽과 밝은 색이 우주 배경에서 분리된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "궤도 엘리베이터",
@@ -5763,7 +6363,9 @@
      "codes": [],
      "reads_as": "행성에서 긴 줄로 상부 고리 정거장과 연결된 궤도 엘리베이터로 보인다.",
      "reasons": "정거장의 밝은 윗면과 아래쪽 두께가 함께 보이고 별도의 사선 옆벽은 없으며, 지도 1배에서도 행성·수직 연결선·두 정거장의 큰 구조가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "항법 부표",
@@ -5781,7 +6383,9 @@
      "codes": [],
      "reads_as": "푸른 태양 날개와 밝은 비콘을 단 가느다란 우주 부표로 보인다.",
      "reasons": "8배 그림에서 하단 받침의 윗면과 수평인 정면이 함께 보이고, 좌우 날개와 돛대가 대칭에 가까우며 별도의 옆벽이나 사선 후퇴가 없다. 지도 1배에서도 비콘·돛대·날개가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "소행성 채굴촌",
@@ -5799,7 +6403,9 @@
      "codes": [],
      "reads_as": "갈색 소행성 위에 밝은 돔 두 채와 주황색 탑이 모인 작은 우주 거점으로 보인다.",
      "reasons": "돔의 윗부분과 남쪽 몸체가 보이고 별도의 옆벽이나 사선으로 물러나는 건물 윗선이 없으며, 1배 지도에서도 암반·돔·탑의 구분이 유지된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "얼음 위성",
@@ -5819,7 +6425,9 @@
      ],
      "reads_as": "푸른 얼음 위성 위에 작은 검은 돌기가 붙은 모습으로 보인다.",
      "reasons": "지도 1배에서 얼음 구는 읽히지만 기지 돔과 안테나는 촌락 시설로 식별되지 않는다. 8배 그림 상단 x=112~175, y=40~71의 회색·검은 덩어리는 돔의 지붕과 정면 벽 구분이 약해 얼음 구의 돌기처럼 합쳐진다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "용암 행성",
@@ -5837,7 +6445,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 밝은 용암 균열이 퍼진 둥근 암석 행성으로 보인다.",
      "reasons": "검은 우주에서 어두운 외곽선과 주황·노랑 용암이 구분되고, 구형 암반과 상단 분출이 읽히며 부적절한 사선 투영은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -5870,7 +6480,9 @@
      ],
      "reads_as": "지도 1배에서는 작은 건물과 연기 나는 기계가 붙은 공업 시설로 보인다.",
      "reasons": "8배 그림 왼쪽 x=8~95, y=104~239는 천막 입구 없이 세로로 긴 건물처럼 보이고, 오른쪽 x=104~239, y=72~239는 연기와 기관이 대부분을 차지한다. 지도 1배에서 범포 천막 둘을 구분할 수 없어 야영지로 읽히지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마도 제국 수도",
@@ -5888,7 +6500,9 @@
      "codes": [],
      "reads_as": "시계탑·연기 나는 굴뚝·비행선이 있는 성벽 두른 산업 도시, 수도급 거점으로 읽힌다.",
      "reasons": "지붕과 성벽 윗면에 깊이가 있고 남쪽 벽·문이 함께 보이며, 벽 경계는 수평이고 별도의 동·서 옆벽은 보이지 않는다. 지도 1배에서도 윤곽과 주요 시설이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마도 요새",
@@ -5906,7 +6520,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 굴뚝이 솟은 철제 본루와 좌우 포탑, 중앙 문을 갖춘 요새로 보인다.",
      "reasons": "본루 윗면과 남쪽 벽·문이 함께 보이고, 벽 경계가 수평이며 좌우 윤곽이 대칭에 가깝다. 별도로 뒤로 물러나는 옆벽은 없으며 지도에서도 요새로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "비행선 기지",
@@ -5924,7 +6540,9 @@
      "codes": [],
      "reads_as": "밝은 비행선이 계류탑 옆에 떠 있는 철책 두른 기지",
      "reasons": "격납고의 윗면과 남쪽 출입구가 함께 보이고 벽 경계가 수평이며, 별도로 뒤로 물러나는 옆벽은 없다. 지도 1배에서도 비행선·높은 계류탑·철책으로 기지가 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "광산 갱도",
@@ -5942,7 +6560,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 갈색 바위산에 검은 입구가 뚫린 동굴·갱도로 보인다.",
      "reasons": "바위 윗부분과 남쪽 갱도 입구가 함께 보이고, 8배 그림 중앙 버팀목의 윗선은 수평이며 별도의 사선 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마석 원",
@@ -5960,7 +6580,9 @@
      "codes": [],
      "reads_as": "놋쇠색 원형 받침에 보라색 수정들이 둘러선 마법 제단.",
      "reasons": "타원형 받침의 윗면과 남쪽 두께가 함께 보이고, 기둥 배치가 대체로 좌우 대칭이며 별도의 옆벽이나 사선으로 물러나는 윗선이 없다. 지도 1배에서도 수정이 둘러선 원형 장소로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "부유 대륙",
@@ -5978,7 +6600,9 @@
      "codes": [],
      "reads_as": "시계탑과 작은 건물들이 올라선, 보라색 부유석이 달린 떠 있는 섬 마을.",
      "reasons": "지붕·풀밭 윗면과 건물의 남쪽 정면 벽이 함께 보이고, 벽 경계가 수평이며 별도의 동·서 옆벽은 없다. 지도 1배에서도 시계탑 마을과 떠 있는 암반이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "공업 도시",
@@ -5996,7 +6620,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 굴뚝이 솟은 공장과 탱크를 성벽·철문으로 둘러싼 공업 도시로 보인다.",
      "reasons": "톱날 지붕과 성벽 윗면, 남쪽 벽·문이 함께 보이며 성벽 경계는 수평이다. 별도로 뒤로 물러나는 동·서쪽 벽면은 보이지 않고, 지도에서도 공업 시설과 성곽이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "증기선 항구",
@@ -6014,7 +6640,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 창고와 크레인, 외륜 증기선이 모인 해안 항구로 보인다.",
      "reasons": "창고 지붕 윗면과 남쪽 벽이 함께 보이고 벽 경계가 수평이며, 별도의 동·서 옆벽 없이 지도에서도 증기선과 항구 시설이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마석 수정 언덕",
@@ -6032,7 +6660,9 @@
      "codes": [],
      "reads_as": "갈색 바위 언덕을 뚫고 솟은 보라색 수정 무리로 보인다.",
      "reasons": "바위 언덕의 윗부분과 남쪽 경사면이 함께 보이고, 사선으로 물러나는 인공 구조물 없이 지도 1배에서도 보라색 결정 무리가 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "톱니 유적 바위산",
@@ -6050,7 +6680,9 @@
      "codes": [],
      "reads_as": "회색 바위산에 거대한 녹슨 톱니가 박힌 자연 랜드마크로 보인다.",
      "reasons": "바위의 윗부분과 남쪽 표면이 함께 보이며, 지도 1배에서도 산의 윤곽과 주황색 톱니가 구분된다. 사선으로 물러나는 별도 벽 평면은 없다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "탄광 마을",
@@ -6068,7 +6700,9 @@
      "codes": [],
      "reads_as": "바위 갱도 입구와 권양탑 앞에 오두막들이 모인 광산 마을.",
      "reasons": "갱도 입구와 권양탑, 앞쪽 오두막들이 지도 1배에서도 구분되며, 오두막의 지붕 윗면과 수평인 남쪽 벽이 보이고 별도의 동·서 옆벽 평면은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "추락한 비행선",
@@ -6088,7 +6722,9 @@
      ],
      "reads_as": "지도 1배에서는 연기를 내는 작은 기관차나 바퀴 달린 기계로 보인다.",
      "reasons": "8배 그림의 왼쪽 기낭(x=24~143, y=112~191)이 온전한 둥근 덩어리로 보이고, 아래 두 회색 조각(x=48~111, y=216~239)이 바퀴처럼 읽힌다. 오른쪽 잔해(x=144~239, y=136~231)에서도 꺾인 갈비뼈와 찢긴 기낭이 구분되지 않아 지도에서 추락한 비행선 폐허라는 역할이 드러나지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "폭주 공장 지대",
@@ -6106,7 +6742,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 보라색 마석이 솟은 낡고 부서진 공장 지대로 보인다.",
      "reasons": "양쪽 공장에 지붕 윗면과 창이 있는 남쪽 벽이 함께 보이고 벽 경계는 수평이며, 별도로 뒤로 물러나는 옆벽은 없다. 지도에서도 공장·배관·마석의 덩어리가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마도 연구소",
@@ -6124,7 +6762,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 푸른 유리 돔과 양쪽 장치가 있는 벽돌 연구 시설로 보인다.",
      "reasons": "지붕 윗면과 문이 있는 남쪽 벽이 함께 보이고 벽 경계가 수평이며, 돔 오른쪽의 어두운 부분은 곡면 명암으로 별도의 옆벽이 아니다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "거대 시계탑",
@@ -6142,7 +6782,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 큰 시계판과 구리색 돔을 얹은 높은 벽돌 시계탑으로 보인다.",
      "reasons": "좌우 윤곽과 층 경계가 대칭·수평이며 돔과 단의 윗면, 남쪽 벽이 보이고 별도의 사선 옆벽 없이 지도에서도 시계탑으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "증기 굴뚝 탑",
@@ -6160,7 +6802,9 @@
      "codes": [],
      "reads_as": "놋쇠 띠가 둘러진 가느다란 굴뚝탑에서 밝은 증기가 솟는 모습.",
      "reasons": "굴뚝 머리와 받침의 윗면, 세로 몸통의 정면이 함께 보이고 별도의 사선 옆벽은 없다. 지도 1배에서도 증기를 내뿜는 작은 탑으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "철도역 마을",
@@ -6180,7 +6824,9 @@
      ],
      "reads_as": "지도 1배에서는 회색·붉은 철도 장비 덩어리로 보이며, 철도역 마을로는 읽히지 않는다.",
      "reasons": "8배 그림의 위쪽 역사 후보(x=8~231, y=72~175)는 지붕과 정면 벽의 구분이 약하고, 중앙 밝은 부분(x=104~143, y=104~151)은 시계로 식별되지 않는다. 아래쪽 기관차·선로 후보(x=8~231, y=176~247)도 지도 1배에서는 서로 뭉쳐 역사와 기관차가 있는 촌락임을 알아보기 어렵다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "풍차 공방 마을",
@@ -6198,7 +6844,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 풍차와 굴뚝이 있는 작은 공방 건물 무리로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽이 함께 보이고 건물 경계가 수평이며, 별도로 뒤로 물러나는 옆벽 없이 지도에서도 풍차 중심의 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "지열 증기 화산",
@@ -6218,7 +6866,9 @@
      ],
      "reads_as": "지도 1배에서는 푸른 증기를 내는 굴뚝이 달린 회색 바위와 작은 오두막으로 보인다.",
      "reasons": "8배 그림의 회색 몸체(x=16~215, y=88~239)가 둥근 바위로 보이고, 꼭대기의 구리색 부분(x=72~151, y=56~111)은 화구의 움푹한 입구 없이 굴뚝처럼 솟아 있다. 지도 1배에서 화산이라는 역할을 식별하기 어렵다. 오두막에는 별도의 사선 옆벽이 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   },
@@ -6249,7 +6899,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 표기를 세운 짐마차와 천막이 있는 작은 야영지로 보인다.",
      "reasons": "천막의 경사진 윗면과 수평 하단·남쪽 입구가 함께 보이며, 별도로 뒤로 물러나는 동·서 옆벽은 없다. 지도에서도 마차·표기·천막의 구성이 야영지로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "황도 자금성",
@@ -6267,7 +6919,9 @@
      "codes": [],
      "reads_as": "붉은 담과 삼문 안에 노란 겹지붕 전각과 좌우 배전이 모인 대형 황궁으로 읽힌다.",
      "reasons": "지붕과 마당의 윗면, 남쪽 담·문·전각 정면이 함께 보이고 주요 경계가 수평이며, 별도의 동·서 옆벽 없이 좌우 대칭을 이룬다. 지도 1배에서도 황궁의 규모와 구성이 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "마교 총단",
@@ -6285,7 +6939,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 검은 기와 대전과 붉은 문·깃발·불빛을 갖춘 성벽 요새로 보인다.",
      "reasons": "큰 지붕 윗면과 수평인 남쪽 성벽·문이 함께 보이고, 좌우 윤곽이 거의 대칭이며 별도의 동·서 옆벽 평면은 보이지 않는다. 지도에서도 성·요새 역할이 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "무림 문파 본산",
@@ -6303,7 +6959,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 청록 지붕과 중앙 돌계단, 앞 산문을 갖춘 높은 석축의 산중 문파 성채로 보인다.",
      "reasons": "지붕 윗면과 남쪽 벽·문이 함께 보이고, 대전과 기단의 경계가 수평이며 좌우 배치가 대칭에 가깝다. 별도로 뒤로 물러나는 동·서 옆벽은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "수련 동굴",
@@ -6321,7 +6979,9 @@
      "codes": [],
      "reads_as": "바위 동굴 입구 옆으로 폭포가 내려와 작은 물웅덩이에 모이는 장소.",
      "reasons": "바위 윗부분과 남쪽 동굴 입구가 함께 보이며, 지도 1배에서도 검은 입구와 푸른 폭포가 구별된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "팔괘진",
@@ -6339,7 +6999,9 @@
      "codes": [],
      "reads_as": "기둥과 중앙 무늬가 있는 원형 돌 제단·진법 자리로 보인다.",
      "reasons": "넓은 돌단 윗면과 수평인 남쪽 단면이 함께 보이고, 기둥 배치와 윤곽이 좌우 대칭에 가까우며 별도의 동·서 옆벽은 보이지 않는다. 지도 1배에서도 돌원 형태의 의식 장소로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "구름 위 선계",
@@ -6357,7 +7019,9 @@
      "codes": [],
      "reads_as": "구름에 둘러싸인 공중 바위섬 위 금색·청록색 지붕의 누각으로 보인다.",
      "reasons": "누각의 지붕 윗면과 남쪽 정면 벽이 함께 보이고 처마·벽 경계가 수평이며, 별도의 동서 옆벽 없이 지도 1배에서도 떠 있는 땅으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "장성 성곽 도시",
@@ -6375,7 +7039,9 @@
      "codes": [],
      "reads_as": "지도 1배에서 회색 성벽과 모서리 탑이 기와 건물들을 둘러싼 성곽 도시로 보인다.",
      "reasons": "기와 지붕과 성벽 윗면, 남쪽 정면 벽과 중앙 문이 함께 보이며 좌우 윤곽과 벽 경계가 수평·대칭을 유지한다. 별도로 드러난 동·서쪽 벽 평면은 없고 지도에서도 성곽 도시로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "강 포구",
@@ -6393,7 +7059,9 @@
      "codes": [],
      "reads_as": "강가 성벽 마을 앞에 돛배 두 척이 모인 포구로 보인다.",
      "reasons": "지붕과 성벽의 윗면, 남쪽 정면 벽이 함께 보이고 성벽 경계가 수평이며, 별도의 동·서 옆벽은 없다. 지도 1배에서도 강변 마을과 두 배의 실루엣이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "기암 소나무 봉우리",
@@ -6411,7 +7079,9 @@
      "codes": [],
      "reads_as": "구름이 걸린 세 개의 가파른 바위 봉우리와 꼭대기의 작은 나무가 있는 자연 랜드마크.",
      "reasons": "지도 1배에서도 높이가 다른 바위 기둥 셋과 흰 구름이 구분되며, 위쪽과 전면이 보이는 자연물 시점으로 기준에 부합한다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "객잔 거리",
@@ -6429,7 +7099,9 @@
      "codes": [],
      "reads_as": "기와 건물 여러 채와 중앙의 큰 객잔이 모인 마을 거리로 보인다.",
      "reasons": "넓은 지붕 윗면과 수평 경계의 남쪽 벽이 함께 보이며 별도의 옆벽이나 사선 후퇴가 없다. 지도 1배에서도 건물 군집과 중앙 큰 건물이 구분되고 윤곽·크기감이 기준과 어울린다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "무너진 사당",
@@ -6447,7 +7119,9 @@
      "codes": [],
      "reads_as": "붉은 문틀과 허물어진 담, 바닥에 내려앉은 기와가 있는 작은 사당 폐허.",
      "reasons": "정면의 붉은 기둥·담과 내려앉은 지붕 윗면이 함께 보이고, 별도의 동·서쪽 옆벽이나 사선으로 후퇴하는 윗선은 없다. 지도 1배에서도 폐허 윤곽이 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "장성 폐허",
@@ -6467,7 +7141,9 @@
      ],
      "reads_as": "지도 1배에서는 돌벽과 탑 일부가 남은 작은 성곽 폐허로 보인다.",
      "reasons": "8배 그림 중앙의 가장 높은 봉화대(x=240~327, y=80~151)와 좌우 성벽의 상단에 넓게 내려다보이는 윗면이 없고, 얇은 상단 띠 아래로 벽돌 정면만 이어져 정면 입면도로 보인다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "소림사",
@@ -6485,7 +7161,9 @@
      "codes": [],
      "reads_as": "회청색 큰 전각 지붕과 황토 담·붉은 산문이 있는 동양 사찰로 보인다.",
      "reasons": "넓은 지붕 윗면과 남쪽 정면 벽·문이 함께 보이고, 주요 벽 경계가 수평이며 별도로 뒤로 물러나는 옆벽은 없다. 지도 1배에서도 사찰 건물군으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "9층 팔각 전탑",
@@ -6503,7 +7181,9 @@
      "codes": [],
      "reads_as": "밝은 기단 위에 처마가 여러 층 겹치고 금빛 꼭대기가 있는 높은 탑으로 보인다.",
      "reasons": "층별 처마 윗면과 남쪽 몸통·기단 정면이 보이고 윤곽이 좌우 대칭에 가까우며, 별도로 뒤로 물러나는 옆벽 없이 지도 1배에서도 높은 다층 탑으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "누각",
@@ -6523,7 +7203,9 @@
      ],
      "reads_as": "지도 1배에서는 녹색 머리와 붉은 몸통의 가느다란 탑으로 보이며, 2층 누각은 구분되지 않는다.",
      "reasons": "8배 그림 x=8~79, y=40~143의 녹색 부분이 하나의 긴 덮개로 이어져 청기와 겹처마가 읽히지 않고, x=16~63, y=88~127의 붉은 면도 기둥보다 막힌 벽으로 보인다. 지도에서는 두 층의 누각 구조가 식별되지 않는다. 별도의 동·서 옆벽이나 사선으로 후퇴하는 윗선은 보이지 않는다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "대나무 숲 마을",
@@ -6541,7 +7223,9 @@
      "codes": [],
      "reads_as": "키 큰 녹색 수목 사이에 초가지붕 집 두 채가 있는 작은 촌락.",
      "reasons": "두 집 모두 넓은 지붕 윗면과 수평 처마 아래 남쪽 벽·문이 보이며, 뒤로 물러나는 별도 옆벽이나 사선 윗면은 없다. 지도 1배에서도 집 두 채가 구분된다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "산골 마을",
@@ -6559,7 +7243,9 @@
      "codes": [],
      "reads_as": "청회색 지붕의 집 세 채와 나무가 모인 작은 촌락.",
      "reasons": "세 집 모두 지붕 윗면과 남쪽 흙벽·문이 보이고 처마선이 수평이며, 별도의 동·서 옆벽 없이 지도 1배에서도 촌락으로 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     },
     {
      "name": "화염산",
@@ -6579,7 +7265,9 @@
      ],
      "reads_as": "지도 1배에서는 붉은 기둥 여러 개 위에 불붙은 모닥불처럼 보인다.",
      "reasons": "8배 그림의 x=16~232, y=136~240에 붉은 세로 몸통이 나란히 서고 밑변이 평평하다. 산비탈과 정상의 분화구가 구분되지 않아, 지도에서는 불꽃이 산의 형태보다 먼저 읽힌다.",
-     "decision": null
+     "decision": null,
+     "selected_candidate": null,
+     "sha256": null
     }
    ]
   }

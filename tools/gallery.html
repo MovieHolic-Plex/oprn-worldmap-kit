@@ -52,6 +52,8 @@
 <body>
 <header>
   <h1>OPRN 월드맵 아이콘</h1>
+  <p class="sub">2026-10-04 · 사람이 선택한 79장(원본 72 · 다시 그린 후보 7)을 게임용 시트로 구웠습니다.
+    <a href="downloads/worldmap-selected.png" download>PNG 시트</a> · <a href="downloads/worldmapSelectedSheet.json" download>전체 칸 배열·해시</a> · <a href="downloads/ATTRIBUTION.md">CC BY 4.0 출처</a></p>
   <p class="sub">17개 세계관 · 346장 — 16px 월드맵(EasyRPG World 칩셋 결) 장소 아이콘과, 그것을 만들고 거르는 하네스 · World-map place icons for 16px RPGs and the harness that makes and filters them</p>
   <div class="flow">
     <div class="step"><b>① 3D 장면 코드</b><span>세계관마다 <code>scenes.py</code>. 성·마을·탑을 상자·원통·지붕으로 짓는다. 생성 이미지 없음.</span></div>
@@ -61,7 +63,7 @@
     <div class="step"><b>⑤ 사람이 결정</b><span>받기 / 버리기는 사람만. 버린 것은 원래 화소를 재료로 다시 그리기 판.</span></div>
   </div>
   <p class="note">사유 코드: <code>SIDE</code> 옆면이 보임 · <code>DIAG</code> 사선으로 기움 · <code>FRONT</code> 정면 벽이 없어 평면도처럼 보임 · <code>READ</code> 게임 크기(1배)에서 무엇인지 안 읽힘 · <code>STYLE</code> 칩셋 결과 다름.
-  카드를 누르면 검수자가 1배에서 무엇으로 읽었는지가 나온다. 「받음」은 프로젝트 쪽에서 사람이 받은 것, 표시가 없으면 아직 안 정한 것이다.</p>
+  카드를 누르면 검수자가 1배에서 무엇으로 읽었는지가 나온다. 「받음」은 사람이 고른 실제 그림이다. 미선택 후보 267장은 다운로드 시트에 들어가지 않는다.</p>
 </header>
 <nav><div class="bar" id="bar"></div></nav>
 <main id="main"></main>
@@ -92,7 +94,7 @@ function card(i, s) {
     <div class="pics">
       ${i.img ? `<img src="${i.img}" width="${i.cells[0] * 16 * k}" height="${i.cells[1] * 16 * k}" alt="${esc(i.name)}" loading="lazy" class="${s.kind === 'space' ? 'space' : ''}">` : ''}
     </div>
-    <div><div class="nm">${esc(i.name)}</div><div class="meta">${esc(i.role_name)} · ${i.cells.join('×')}칸${i.place ? ' · ' + esc(i.place) : ''}</div></div>
+    <div><div class="nm">${esc(i.name)}</div><div class="meta">${esc(i.role_name)} · ${i.cells.join('×')}칸${i.place ? ' · ' + esc(i.place) : ''}${i.selected_candidate ? ' · 선택 후보 ' + esc(i.selected_candidate) : ''}</div></div>
     <div class="tags">${v}${d}</div>
     <div class="reads">${i.ctx ? `<div class="meta">지도 자리 — 게임 크기(1배)</div><img src="${i.ctx}" class="ctx ctxz" alt="지도 자리" loading="lazy">` : ''}${i.desc ? `<div>${esc(i.desc)}</div>` : ''}${i.reads_as ? `<div><b>1배에서:</b> ${esc(i.reads_as)}</div>` : ''}${i.verdict === 'FAIL' && i.reasons ? `<div><b>사유:</b> ${esc(i.reasons)}</div>` : ''}</div>
   </div>`;

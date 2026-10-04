@@ -8,19 +8,24 @@
 """
 import json
 import shutil
+import sqlite3
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'src' / 'harnesses' / 'worldmap-icons'))
 import harness as H  # noqa: E402
+import bake  # noqa: E402
 
 OUT = ROOT / 'docs'
 
 
 def main():
-    c = H.db()
+    c = sqlite3.connect(f'file:{H.DATA}/harness.sqlite?mode=ro', uri=True)
+    c.row_factory = sqlite3.Row
+    c.execute('begin')
     rv, dec = H._latest_reviews(c), H._latest_decisions(c)
+    selected = {x['id']: x for x in bake.live_selections()}
     names, roles = H.set_names(), H.role_names()
     if (OUT / 'img').exists():
         shutil.rmtree(OUT / 'img')
@@ -31,24 +36,42 @@ def main():
         rows = list(c.execute('select * from items where iset=? order by role, name', (s,)))
         for ii, it in enumerate(rows):
             src = H.item_dir(it['id'])
+            chosen = selected.get(it['id'])
+            if chosen and chosen['candidate']:
+                src = chosen['file'].parent
             dst = OUT / 'img' / f's{si:02d}'
             dst.mkdir(parents=True, exist_ok=True)
             files = {}
             for k in ('icon', 'ctx-x1'):
-                if (src / f'{k}.png').exists():
-                    shutil.copy(src / f'{k}.png', dst / f'{ii:03d}-{k}.png')
+                file = chosen['file'] if k == 'icon' and chosen else src / f'{k}.png'
+                if file.exists():
+                    shutil.copy(file, dst / f'{ii:03d}-{k}.png')
                     files[k] = f'img/s{si:02d}/{ii:03d}-{k}.png'
             v, d = rv.get(it['id']), dec.get(it['id'])
+            if chosen and chosen['candidate']:
+                rid, letter = chosen['candidate'].split('/')
+                cand = c.execute('select * from cands where round=? and letter=?', (int(rid[1:]), letter)).fetchone()
+                v = dict(cand)
+                v['body'] = json.loads(v['body']) if v.get('body') else {}
+                v['codes'] = json.loads(v['codes']) if v.get('codes') else []
             body = (v or {}).get('body') or {}
             icons.append(dict(
                 name=it['name'], role=it['role'], role_name=roles.get(it['role'], it['role']), cells=json.loads(it['cells']),
                 desc=it['descr'] or '', place=it['place'] or '', img=files.get('icon'), ctx=files.get('ctx-x1'),
                 verdict=(v or {}).get('verdict') if (v or {}).get('status') == 'done' else None,
                 codes=(v or {}).get('codes') or [], reads_as=body.get('reads_as', ''), reasons=body.get('reasons', ''),
-                decision=(d or {}).get('decision')))
+                decision=chosen['decision'] if chosen else ('reject' if (d or {}).get('decision') == 'reject' else None),
+                selected_candidate=(chosen or {}).get('candidate'), sha256=(chosen or {}).get('sha256')))
         sets.append(dict(id=s, name=names.get(s, s), extends=man.get('extends'), kind=man.get('kind', 'land'),
                          camera=man.get('camera'), icons=icons))
     OUT.mkdir(exist_ok=True)
+    c.close()
+    downloads = OUT / 'downloads'
+    downloads.mkdir(exist_ok=True)
+    for source, name in [(bake.SHEET, 'worldmap-selected.png'), (bake.META, 'worldmapSelectedSheet.json'),
+                         (bake.SOURCE / 'selected.json', 'selected.json'),
+                         (ROOT / 'public/assets/worldmap-icons/ATTRIBUTION.md', 'ATTRIBUTION.md')]:
+        shutil.copy2(source, downloads / name)
     (OUT / 'data.json').write_text(json.dumps(dict(sets=sets), ensure_ascii=False, indent=1) + '\n')
     tpl = (Path(__file__).parent / 'gallery.html').read_text(encoding='utf-8')
     (OUT / 'index.html').write_text(tpl.replace('/*DATA*/null', json.dumps(dict(sets=sets), ensure_ascii=False)), encoding='utf-8')
