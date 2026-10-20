@@ -3,6 +3,10 @@
 16px 월드맵(EasyRPG World 칩셋 결)의 **장소 아이콘 17개 세계관 · 346장**과, 그 아이콘을 만들고 거르는 **하네스**다.
 [OPRN Studio](https://github.com/MovieHolic-Plex) 의 월드맵 작업에서 떼어 낸 공개본이다.
 
+**정본:** 2026-10-20부터 이 저장소가 월드맵 생성기(Python 키트·3D 아이콘 레이캐스터·테마/아이콘 세트·선택 사본)의 유일한 정본이다.
+OPRN 편집기는 이 저장소를 고정 커밋으로 받아(`npm run worldmap-kit:sync`) 쓰고, 구운 시트·TS 어댑터·참고문서 JSON 만 자기 저장소에 둔다.
+키트를 고치려면 여기에 PR 을 올리고, 머지 뒤 편집기의 `tiledata/worldmap-kit.lock.json` 커밋을 올린다.
+
 **갤러리:** https://movieholic-plex.github.io/oprn-worldmap-kit/ — 세트별 아이콘, 지도에 붙인 모습, 검수자 판정, 사람의 받기 여부.
 
 2026-10-04: **사람 선택 79장(원본 72 · 재작성 후보 7)**의 게임용 PNG 시트와 전체 칸 배열을 추가했다.
@@ -39,7 +43,7 @@
 
 ## 돌려 보기
 
-Python 3.10+ 와 `pip install -r requirements.txt`(numpy · Pillow).
+Python 3.10+ 와 `pip install -r requirements.txt`(numpy · Pillow · SciPy).
 
 ```bash
 # 세트 하나 다시 빌드 (sheet.png · manifest.json · preview/ · build-report.json)
